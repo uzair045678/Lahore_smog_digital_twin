@@ -1,0 +1,64 @@
+{
+  "stations": [
+    {
+      "id": "EPS001",
+      "name": "WAPDA Town",
+      "lat": 31.5204,
+      "lon": 74.3167
+    },
+    {
+      "id": "EPS002",
+      "name": "Township",
+      "lat": 31.4892,
+      "lon": 74.3181
+    },
+    {
+      "id": "EPS003",
+      "name": "Gulshan Ravi",
+      "lat": 31.4933,
+      "lon": 74.3500
+    },
+    {
+      "id": "EPS004",
+      "name": "Shalimar",
+      "lat": 31.5444,
+      "lon": 74.3889
+    },
+    {
+      "id": "EPS005",
+      "name": "Lahore College",
+      "lat": 31.5428,
+      "lon": 74.3656
+    },
+    {
+      "id": "EPS006",
+      "name": "Cantt",
+      "lat": 31.5595,
+      "lon": 74.3428
+    },
+    {
+      "id": "EPS007",
+      "name": "Allama Iqbal Town",
+      "lat": 31.5550,
+      "lon": 74.3244
+    },
+    {
+      "id": "EPS008",
+      "name": "Data Ganj Baksh",
+      "lat": 31.5122,
+      "lon": 74.3944
+    },
+    {
+      "id": "EPS009",
+      "name": "Saggian",
+      "lat": 31.5678,
+      "lon": 74.3522
+    },
+    {
+      "id": "EPS010",
+      "name": "Model Town",
+      "lat": 31.5089,
+      "lon": 74.3481
+    }
+  ]
+}
