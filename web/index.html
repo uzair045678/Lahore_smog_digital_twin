@@ -11,38 +11,48 @@
       #timeline { position: fixed; left: 16px; right: 16px; bottom: 16px; padding: 12px; border: 1px solid #30363d; border-radius: 12px; background: rgba(22,27,34,0.92); color: #e6edf3; backdrop-filter: blur(8px); z-index: 2; }
       .row { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
       .badge { background:#161b22; border:1px solid #30363d; border-radius:999px; padding:4px 8px; font-size:12px; }
-      .error { color:#f89; }
-      input[type="range"] { width: 100%; }
+      button, select, input { min-height: 40px; }
+      button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid #58a6ff; outline-offset: 2px; }
+      @media (prefers-reduced-motion: reduce) {
+        * { transition: none !important; animation: none !important; }
+      }
+      @media (max-width: 640px) {
+        #hud { top: auto; bottom: 132px; left: 8px; width: calc(100vw - 16px); }
+        #timeline { left: 8px; right: 8px; bottom: 8px; }
+        .row { flex-wrap: wrap; }
+      }
       #stationList, #timeLabel { font-size: 13px; line-height: 1.4; }
     </style>
   </head>
   <body>
-    <canvas id="scene"></canvas>
-    <div id="hud">
-      <div id="status" class="badge">Loading latest data...</div>
-      <div class="row">
-        <label for="pollutant">Pollutant</label>
-        <select id="pollutant">
-          <option value="pm25">PM2.5</option>
-          <option value="pm10">PM10</option>
-          <option value="no2">NO2</option>
-          <option value="so2">SO2</option>
-          <option value="o3">O3</option>
-          <option value="co">CO</option>
-        </select>
+    <main id="app">
+      <canvas id="scene" aria-label="3D Lahore pollution map"></canvas>
+      <div id="hud" role="status" aria-live="polite">
+        <div id="status" class="badge">Loading latest data...</div>
+        <div class="row">
+          <label for="pollutant">Pollutant</label>
+          <select id="pollutant" aria-label="Active pollutant">
+            <option value="pm25">PM2.5</option>
+            <option value="pm10">PM10</option>
+            <option value="no2">NO2</option>
+            <option value="so2">SO2</option>
+            <option value="o3">O3</option>
+            <option value="co">CO</option>
+          </select>
+        </div>
+        <div id="stationList" class="row" style="flex-wrap:wrap;"></div>
       </div>
-      <div id="stationList" class="row" style="flex-wrap:wrap;"></div>
-    </div>
-    <div id="timeline">
-      <div class="row">
-        <button id="play">Play</button>
-        <button id="previous">Prev</button>
-        <input id="scrubber" type="range" min="0" max="72" value="48" aria-label="Timeline hours" />
-        <button id="next">Next</button>
+      <div id="timeline" role="group" aria-label="Time scrubber">
+        <div class="row">
+          <button id="play" aria-label="Play timeline">Play</button>
+          <button id="previous" aria-label="Previous hour">Prev</button>
+          <input id="scrubber" type="range" min="0" max="72" value="48" aria-label="Timeline in hourly steps around current time" />
+          <button id="next" aria-label="Next hour">Next</button>
+        </div>
+        <div id="timeLabel" class="row" aria-live="polite"></div>
+        <div id="sourceLabel" class="row" aria-live="polite"></div>
       </div>
-      <div id="timeLabel" class="row"></div>
-      <div id="sourceLabel" class="row"></div>
-    </div>
+    </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
