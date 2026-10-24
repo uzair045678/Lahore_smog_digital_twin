@@ -1,0 +1,7502 @@
+{
+  "schema_version": "1.0",
+  "data_version": "2026-10-24T15-52-18Z",
+  "generated_at": "2026-10-24T15:52:18.858437+00:00",
+  "city": {
+    "district": "Lahore",
+    "average_aqi": 106,
+    "yesterday_aqi": 310,
+    "station_count": 11,
+    "observed_at": "2026-10-24T20:00:00+05:00"
+  },
+  "stations": [
+    {
+      "id": "12",
+      "name": "Barki Road",
+      "lat": 31.53590314,
+      "lon": 74.43518805,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 67,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Satisfactory",
+      "aqi_range": "51-100",
+      "major_pollutant": "PM25",
+      "temperature": 21.13,
+      "humidity": 63.26,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "15",
+      "name": "Shahdara",
+      "lat": 31.63812639,
+      "lon": 74.28518245,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 182,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Unhealthy for sensitive groups",
+      "aqi_range": "151-200",
+      "major_pollutant": "PM25",
+      "temperature": 23.25,
+      "humidity": 60.95,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "18",
+      "name": "Kahna Nau",
+      "lat": 31.37096864,
+      "lon": 74.36509796,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 164,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Unhealthy for sensitive groups",
+      "aqi_range": "151-200",
+      "major_pollutant": "PM25",
+      "temperature": 21.93,
+      "humidity": 65.59,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "19",
+      "name": "Multan Road",
+      "lat": 31.46379729,
+      "lon": 74.22594175,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 123,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Moderate",
+      "aqi_range": "101-150",
+      "major_pollutant": "NO2",
+      "temperature": 23.46,
+      "humidity": 74.0,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "22",
+      "name": "DHA Phase 6",
+      "lat": 31.45594422,
+      "lon": 74.46377265,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 73,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Satisfactory",
+      "aqi_range": "51-100",
+      "major_pollutant": "PM25",
+      "temperature": 22.43,
+      "humidity": 60.95,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "23",
+      "name": "Punjab University",
+      "lat": 31.47965946,
+      "lon": 74.26608654,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 76,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Satisfactory",
+      "aqi_range": "51-100",
+      "major_pollutant": "PM25",
+      "temperature": 23.31,
+      "humidity": 58.55,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "24",
+      "name": "Safari Park",
+      "lat": 31.38231477,
+      "lon": 74.21817282,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 147,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Moderate",
+      "aqi_range": "101-150",
+      "major_pollutant": "PM25",
+      "temperature": 30.64,
+      "humidity": 86.84,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "25",
+      "name": "GT Road",
+      "lat": 31.57982567,
+      "lon": 74.35500334,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 104,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Moderate",
+      "aqi_range": "101-150",
+      "major_pollutant": "PM25",
+      "temperature": 23.13,
+      "humidity": 56.03,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "27",
+      "name": "Gulberg III, Lahore",
+      "lat": 31.507172,
+      "lon": 74.338461,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 95,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Satisfactory",
+      "aqi_range": "51-100",
+      "major_pollutant": "NO2",
+      "temperature": 23.24,
+      "humidity": 60.0,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    },
+    {
+      "id": "29",
+      "name": "Wagha Border",
+      "lat": 31.60234176,
+      "lon": 74.54494994,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 49,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Good",
+      "aqi_range": "0-50",
+      "major_pollutant": "O3",
+      "temperature": 22.16,
+      "humidity": 54.83,
+      "quality_flags": {
+        "pollutant_flags": {
+          "pm10": "M"
+        }
+      }
+    },
+    {
+      "id": "30",
+      "name": "Egerton Road",
+      "lat": 31.56103547,
+      "lon": 74.33099891,
+      "altitude": null,
+      "observed_at": "2026-10-24T20:00:00+05:00",
+      "fetched_at": "2026-10-24T15:52:18.858437Z",
+      "source": "epa",
+      "measured": true,
+      "aqi": 90,
+      "aqi_standard": "punjab_epa_bands",
+      "aqi_category": "Satisfactory",
+      "aqi_range": "51-100",
+      "major_pollutant": "PM25",
+      "temperature": 24.04,
+      "humidity": 55.62,
+      "quality_flags": {
+        "pollutant_flags": {}
+      }
+    }
+  ],
+  "measurements": {
+    "12": [
+      {
+        "pollutant": "pm25",
+        "concentration": 21.43,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 85.27,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 13.67,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 24.93,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 11.89,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 0.3,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "15": [
+      {
+        "pollutant": "pm25",
+        "concentration": 121.29,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 241.58,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 85.61,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 11.44,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 48.63,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 2.34,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "18": [
+      {
+        "pollutant": "pm25",
+        "concentration": 92.0,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 147.0,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 73.86,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 98.4,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 10.91,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 2.41,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "19": [
+      {
+        "pollutant": "pm25",
+        "concentration": 47.42,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 166.91,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 102.64,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 72.53,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 0.66,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 2.28,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "22": [
+      {
+        "pollutant": "pm25",
+        "concentration": 23.96,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 33.02,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 5.39,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 11.97,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 67.0,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 0.2,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "23": [
+      {
+        "pollutant": "pm25",
+        "concentration": 25.39,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 67.83,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 44.31,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 11.87,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 23.88,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 1.08,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "24": [
+      {
+        "pollutant": "pm25",
+        "concentration": 67.64,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 136.85,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 40.23,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 118.43,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 7.06,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 0.47,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "25": [
+      {
+        "pollutant": "pm25",
+        "concentration": 37.08,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 110.23,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 65.36,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 37.14,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 2.29,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 3.04,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "27": [
+      {
+        "pollutant": "pm25",
+        "concentration": 17.57,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 85.7,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 76.11,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 3.35,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 20.76,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 2.02,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "29": [
+      {
+        "pollutant": "pm25",
+        "concentration": 2.46,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": null,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 11.69,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 11.09,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 63.2,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 0.32,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ],
+    "30": [
+      {
+        "pollutant": "pm25",
+        "concentration": 31.1,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "pm10",
+        "concentration": 95.94,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "no2",
+        "concentration": 67.7,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "so2",
+        "concentration": 1.65,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "o3",
+        "concentration": 21.73,
+        "measured": true,
+        "units": "µg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      },
+      {
+        "pollutant": "co",
+        "concentration": 1.93,
+        "measured": true,
+        "units": "mg/m³",
+        "observed_at": "2026-10-24T20:00:00+05:00",
+        "source": "epa"
+      }
+    ]
+  },
+  "forecast": {
+    "hourly": {
+      "2026-10-24T21:00:00+05:00": {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "aqi": 181,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 23.0,
+        "wind_speed": 4.9,
+        "wind_direction": 129.0,
+        "precipitation_probability": 3,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-24T22:00:00+05:00": {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "aqi": 139,
+        "aqi_category": "Moderate",
+        "temperature": 22.0,
+        "wind_speed": 3.7,
+        "wind_direction": 139.0,
+        "precipitation_probability": 8,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-24T23:00:00+05:00": {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "aqi": 130,
+        "aqi_category": "Moderate",
+        "temperature": 23.0,
+        "wind_speed": 2.7,
+        "wind_direction": 129.0,
+        "precipitation_probability": 10,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T00:00:00+05:00": {
+        "timestamp": "2026-10-25T00:00:00+05:00",
+        "aqi": 137,
+        "aqi_category": "Moderate",
+        "temperature": 23.0,
+        "wind_speed": 1.8,
+        "wind_direction": 137.0,
+        "precipitation_probability": 8,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T01:00:00+05:00": {
+        "timestamp": "2026-10-25T01:00:00+05:00",
+        "aqi": 151,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 23.0,
+        "wind_speed": 0.6,
+        "wind_direction": 108.0,
+        "precipitation_probability": 5,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T02:00:00+05:00": {
+        "timestamp": "2026-10-25T02:00:00+05:00",
+        "aqi": 143,
+        "aqi_category": "Moderate",
+        "temperature": 22.0,
+        "wind_speed": 2.6,
+        "wind_direction": 40.0,
+        "precipitation_probability": 3,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T03:00:00+05:00": {
+        "timestamp": "2026-10-25T03:00:00+05:00",
+        "aqi": 151,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 22.0,
+        "wind_speed": 2.3,
+        "wind_direction": 59.0,
+        "precipitation_probability": 5,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T04:00:00+05:00": {
+        "timestamp": "2026-10-25T04:00:00+05:00",
+        "aqi": 149,
+        "aqi_category": "Moderate",
+        "temperature": 21.0,
+        "wind_speed": 2.4,
+        "wind_direction": 54.0,
+        "precipitation_probability": 8,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T05:00:00+05:00": {
+        "timestamp": "2026-10-25T05:00:00+05:00",
+        "aqi": 156,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 21.0,
+        "wind_speed": 2.1,
+        "wind_direction": 65.0,
+        "precipitation_probability": 10,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T06:00:00+05:00": {
+        "timestamp": "2026-10-25T06:00:00+05:00",
+        "aqi": 155,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 21.0,
+        "wind_speed": 1.8,
+        "wind_direction": 77.0,
+        "precipitation_probability": 8,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T07:00:00+05:00": {
+        "timestamp": "2026-10-25T07:00:00+05:00",
+        "aqi": 160,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 21.0,
+        "wind_speed": 1.8,
+        "wind_direction": 77.0,
+        "precipitation_probability": 3,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T08:00:00+05:00": {
+        "timestamp": "2026-10-25T08:00:00+05:00",
+        "aqi": 176,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 24.0,
+        "wind_speed": 1.7,
+        "wind_direction": 73.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T09:00:00+05:00": {
+        "timestamp": "2026-10-25T09:00:00+05:00",
+        "aqi": 167,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 26.0,
+        "wind_speed": 1.7,
+        "wind_direction": 69.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T10:00:00+05:00": {
+        "timestamp": "2026-10-25T10:00:00+05:00",
+        "aqi": 168,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 29.0,
+        "wind_speed": 1.5,
+        "wind_direction": 82.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T11:00:00+05:00": {
+        "timestamp": "2026-10-25T11:00:00+05:00",
+        "aqi": 162,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 31.0,
+        "wind_speed": 1.4,
+        "wind_direction": 65.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T12:00:00+05:00": {
+        "timestamp": "2026-10-25T12:00:00+05:00",
+        "aqi": 167,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 32.0,
+        "wind_speed": 1.6,
+        "wind_direction": 40.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T13:00:00+05:00": {
+        "timestamp": "2026-10-25T13:00:00+05:00",
+        "aqi": 167,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 32.0,
+        "wind_speed": 1.9,
+        "wind_direction": 360.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T14:00:00+05:00": {
+        "timestamp": "2026-10-25T14:00:00+05:00",
+        "aqi": 164,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 33.0,
+        "wind_speed": 2.4,
+        "wind_direction": 348.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T15:00:00+05:00": {
+        "timestamp": "2026-10-25T15:00:00+05:00",
+        "aqi": 172,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 33.0,
+        "wind_speed": 2.3,
+        "wind_direction": 347.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T16:00:00+05:00": {
+        "timestamp": "2026-10-25T16:00:00+05:00",
+        "aqi": 175,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 32.0,
+        "wind_speed": 2.2,
+        "wind_direction": 347.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T17:00:00+05:00": {
+        "timestamp": "2026-10-25T17:00:00+05:00",
+        "aqi": 166,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 30.0,
+        "wind_speed": 1.8,
+        "wind_direction": 347.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T18:00:00+05:00": {
+        "timestamp": "2026-10-25T18:00:00+05:00",
+        "aqi": 167,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 29.0,
+        "wind_speed": 1.7,
+        "wind_direction": 357.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T19:00:00+05:00": {
+        "timestamp": "2026-10-25T19:00:00+05:00",
+        "aqi": 161,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 28.0,
+        "wind_speed": 1.8,
+        "wind_direction": 24.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      },
+      "2026-10-25T20:00:00+05:00": {
+        "timestamp": "2026-10-25T20:00:00+05:00",
+        "aqi": 162,
+        "aqi_category": "Unhealthy for sensitive groups",
+        "temperature": 27.0,
+        "wind_speed": 1.4,
+        "wind_direction": 36.0,
+        "precipitation_probability": 0,
+        "source": "epa",
+        "measured": false
+      }
+    },
+    "wind": [
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.97,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 282.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 272.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 3.28,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 249.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.99,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 72.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.94,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 69.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.48,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 227.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.66,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 344.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.29,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 59.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 3.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 332.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.95,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 231.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 184.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 3.05,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 147.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.49,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 66.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 356.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.72,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 36.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.85,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 28.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 339.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.14,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 11.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 110.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 4.24,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 60.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 3.21,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 11.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 48.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 86.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 191.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 214.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.27,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 248.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.38,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 67.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 81.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 86.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 99.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.07,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 110.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.77,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 112.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 122.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 141.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 159.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 182.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 2.12,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 165.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.42,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 170.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.41,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 27.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 5.46,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 336.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.89,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 207.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 5.08,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 309.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 3.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 43.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.77,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 8.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.67,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 39.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 1.43,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 36.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.68,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 73.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.4,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.21241
+        },
+        "coverage": "grid",
+        "speed": 0.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 325.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.22,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 63.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.34,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 243.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 270.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.03,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 299.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 3.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 59.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.86,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 256.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.22,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 27.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.89,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 52.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 3.99,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 8.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.82,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 197.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.88,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 206.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.58,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 189.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.79,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 150.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.43,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 151.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.62,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 318.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.91,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 84.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 320.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 12.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 104.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 4.43,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 42.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 17.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 38.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.46,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 74.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 141.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.41,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 256.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.04,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 55.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 94.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.76,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 83.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 86.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 101.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.87,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 110.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.16,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 130.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 158.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 166.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 182.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.66,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 164.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 178.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.23,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 32.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 4.7,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 339.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 2.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 307.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 3.96,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 299.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 3.15,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 27.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 360.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.73,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 22.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.84,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 43.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.23,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 78.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 0.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 39.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.3181,
+          "lon": 74.3385
+        },
+        "coverage": "grid",
+        "speed": 1.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 342.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.34,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 207.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 198.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 58.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 6.76,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 266.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.73,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 22.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.28,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 38.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.04,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 226.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.86,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 54.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 5.23,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 19.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 7.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.87,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 207.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.05,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 220.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 200.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.85,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 182.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 1.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.82,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 346.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.52,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 73.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 231.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 313.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.75,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 111.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 14.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.43,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 36.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.38,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 19.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 54.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.52,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 73.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 212.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.29,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 31.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 120.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.69,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 102.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.56,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 97.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 86.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.91,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 110.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.13,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 114.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.26,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 133.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 170.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 168.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.87,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 173.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.3,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 184.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.63,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 243.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.68,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 300.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 5.12,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 10.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.97,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 353.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 3.04,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 312.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 2.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 14.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 360.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.81,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 48.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 1.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 101.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.16,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 342.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.3884,
+          "lon": 74.53461
+        },
+        "coverage": "grid",
+        "speed": 0.78,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 320.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 326.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.85,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 267.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.26,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 252.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.12,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 82.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 72.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 231.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 307.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.37,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 24.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.76,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 302.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.04,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 36.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 3.75,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 199.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.21,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 175.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.87,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 160.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.42,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 45.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 3.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 8.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.66,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 97.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 58.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.78,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 315.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.75,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 347.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 4.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.51,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 85.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.08,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 13.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.14,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 61.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 360.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.72,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 115.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 183.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.51,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 191.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.92,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 41.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.42,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 58.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 86.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 102.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 121.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 111.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 115.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 144.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.42,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 170.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.37,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 173.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.18,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 192.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 3.51,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 332.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.72,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 17.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.07,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 352.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 4.08,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 234.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 2.13,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 41.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.75,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 31.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.77,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 29.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 1.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 29.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 70.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 108.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.174644
+        },
+        "coverage": "grid",
+        "speed": 0.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 297.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 297.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 270.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.92,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 41.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 3.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 258.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 38.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.7,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 47.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 270.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.14,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 29.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.97,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 44.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 1.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 3.44,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 188.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.86,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 199.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 158.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.78,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 105.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 23.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.91,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 84.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 29.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 34.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 273.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 243.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.97,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 13.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 113.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.19,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 294.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.05,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 65.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.41,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 73.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.26,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.07,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 135.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.86,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 10.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 75.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.75,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 103.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 105.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.31,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 97.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.05,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 124.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.49,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 110.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.43,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 126.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 150.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.0,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 162.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 165.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.07,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 187.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 197.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.46,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 264.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 4.79,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 337.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.29,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 32.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 297.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.0,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 273.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.16,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 356.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 2.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 14.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 1.58,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 35.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.99,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 30.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.16,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 342.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.38995
+        },
+        "coverage": "grid",
+        "speed": 0.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 312.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 279.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.16,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 18.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.28,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 51.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 5.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 256.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.75,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 13.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.02,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 48.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.03,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 284.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 22.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 3.04,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 25.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 3.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 23.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 3.81,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 203.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 3.72,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 209.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 184.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 127.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 32.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.68,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 54.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 18.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 272.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.66,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 275.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 3.0,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 11.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.79,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 123.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.95,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 293.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.49,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 66.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 88.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.8,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 27.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.7,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 24.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 88.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.73,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 112.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 105.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 99.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.96,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 122.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.58,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 108.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 116.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.01,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 160.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.15,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 162.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 172.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 185.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 266.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 5.31,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 342.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 3.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 25.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.73,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 336.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.37,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 277.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.48,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 351.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 2.15,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 359.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.93,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 37.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 1.27,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 48.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.16,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 18.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.528997,
+          "lon": 74.497604
+        },
+        "coverage": "grid",
+        "speed": 0.89,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 322.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.22,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 153.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 243.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 27.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 3.39,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 211.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 3.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 84.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 63.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 3.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 243.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 9.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.02,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 33.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.03,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 100.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.13,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 193.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 196.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 182.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.09,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 11.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 15.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.44,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 126.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.4,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 83.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.68,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 284.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.89,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 308.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 73.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.91,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 41.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.21,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 174.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 288.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.2,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 3.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 48.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.15,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 25.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.76,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 70.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.6,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.77,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 112.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.59,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 131.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 112.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.38,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 109.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.29,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 126.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.33,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 146.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.19,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 165.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.37,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 170.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 2.81,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 175.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.69,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 199.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 5.89,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 339.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 333.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 4.72,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 347.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.3,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 270.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.18,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 8.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 12.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.68,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 23.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 1.12,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 58.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.29,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 31.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.2446
+        },
+        "coverage": "grid",
+        "speed": 0.96,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 332.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.35,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 188.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.07,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 45.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.77,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 47.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 5.02,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 227.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.21,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 72.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.46,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 59.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.21,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 237.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 338.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.41,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 50.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.28,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 64.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.23,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 196.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.19,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 207.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 178.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 26.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.57,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 27.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 71.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.03,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 119.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 37.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.23,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 254.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.7,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 274.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.7,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 34.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.22,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 188.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 162.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.18,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 146.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 4.19,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 39.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.51,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 31.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.8,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 77.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 95.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.69,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 102.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.63,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 135.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.64,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 149.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 128.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.56,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 135.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.3,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 148.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.34,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 153.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 150.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.19,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 152.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 2.81,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 175.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 210.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 4.59,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 336.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 3.02,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 336.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 3.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 360.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 332.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.4,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 240.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.31,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 353.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 360.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 1.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 30.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.89,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 74.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.27,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 112.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.352516
+        },
+        "coverage": "grid",
+        "speed": 0.78,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 320.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.3,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 189.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-22T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.8,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T00:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.25,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 217.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T01:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.88,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 292.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T02:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.62,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T03:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.23,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 58.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T04:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.17,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 251.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T05:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 22.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T06:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 3.26,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 41.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T07:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.1,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 168.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T08:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.61,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 234.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T09:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.06,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 198.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T10:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.83,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 36.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T11:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.59,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 34.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T12:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.01,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 99.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T13:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 315.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T14:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.47,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 328.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T15:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 261.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T16:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.65,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 271.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T17:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 91.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T18:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.27,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 202.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T19:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.74,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 298.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T20:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 209.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.32,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 151.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 4.86,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 40.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-23T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.53,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 30.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T00:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.45,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 90.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T01:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.05,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 87.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T02:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.71,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 111.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T03:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.58,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 145.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T04:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.5,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 150.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T05:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.13,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 129.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T06:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.56,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 140.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T07:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.59,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 152.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T08:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 156.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T09:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.83,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 123.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T10:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.88,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 133.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T11:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 2.9,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 180.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T12:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.98,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 196.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T13:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 4.03,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 337.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T14:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 5.11,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 352.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T15:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 4.72,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 24.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T16:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.76,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 345.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T17:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.36,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 287.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T18:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.59,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 336.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T19:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.55,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 2.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T20:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.7,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 45.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T21:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 1.44,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 56.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T22:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.54,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 22.0,
+        "measured": false,
+        "source": "open_meteo"
+      },
+      {
+        "timestamp": "2026-10-24T23:00:00+05:00",
+        "position": {
+          "lat": 31.669594,
+          "lon": 74.568344
+        },
+        "coverage": "grid",
+        "speed": 0.96,
+        "units": "m/s",
+        "direction": "from",
+        "direction_degrees": 351.0,
+        "measured": false,
+        "source": "open_meteo"
+      }
+    ]
+  },
+  "source_health": {
+    "epa": {
+      "status": "ok",
+      "stations": 11,
+      "observed_at": "2026-10-24T20:00:00+05:00"
+    }
+  }
+}
