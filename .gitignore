@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Pipeline output (published to the `data` branch by CI, not stored in the repo)
+out/
+data/
+
+# Node / frontend
+node_modules/
+web/dist/
+.vite/
+
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and scratch
+*.log
+page.html

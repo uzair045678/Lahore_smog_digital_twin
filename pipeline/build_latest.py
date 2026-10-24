@@ -1,84 +1,209 @@
-"""Build `latest.json` from fetched data.
+"""Build `latest.json`, `history.json` and `manifest.json` from live sources.
 
-This script demonstrates the construction of the output snapshot using
-the schemas defined in ``schema.py``. Replace stub datasets with real
-calls from ``fetch_epa.py``/``fetch_openmeteo.py``/``fetch_aqicn.py``.
+Source priority per PLAN.md section 4.5: EPA first, then AQICN (token, not
+configured yet), then explicitly labelled Open-Meteo model values. Missing
+values stay null; they are never replaced by zero.
 """
+
+from __future__ import annotations
 
 import json
 import os
 from datetime import datetime, timezone
-from typing import List, Dict
+from typing import Dict, List
 
-from .schema import Station, PollutantReading, Forecast, WindVector, Manifest
-from .config import stations
+from . import fetch_epa, fetch_openmeteo
+from .schema import (
+    Manifest,
+    PollutantReading,
+    Source,
+    Station,
+    WindVector,
+    validate_history,
+    validate_latest,
+    validate_manifest,
+)
 
-MAX_STATIONS = 10
+SCHEMA_VERSION = "1.0"
+CITY_CENTER = (31.5204, 74.3167)
+
+
+def _readings(station: Dict) -> List[Dict]:
+    """Convert a station's pollutant values into validated readings."""
+    readings = []
+    for pollutant, concentration in station["pollutants"].items():
+        reading = PollutantReading(
+            pollutant=pollutant,
+            concentration=concentration,
+            units=fetch_epa.POLLUTANT_UNITS[pollutant],
+            measured=station["measured"],
+            observed_at=station["observed_at"],
+            source=Source(station["source"]),
+        )
+        readings.append(reading.model_dump(mode="json"))
+    return readings
+
+
+def _stations(raw_stations: List[Dict], fetched_at: datetime) -> List[Dict]:
+    stations = []
+    for raw in raw_stations:
+        station = Station(
+            id=raw["id"],
+            name=raw["name"],
+            lat=raw["lat"],
+            lon=raw["lon"],
+            observed_at=raw["observed_at"],
+            fetched_at=fetched_at,
+            source=Source(raw["source"]),
+            measured=raw["measured"],
+            aqi=raw["aqi"],
+            aqi_standard=raw["aqi_standard"],
+            aqi_category=raw["aqi_category"],
+            aqi_range=raw["aqi_range"],
+            major_pollutant=raw["major_pollutant"],
+            temperature=raw["temperature"],
+            humidity=raw["humidity"],
+            quality_flags={"pollutant_flags": raw["pollutant_flags"]},
+        )
+        stations.append(station.model_dump(mode="json"))
+    return stations
+
+
+def _wind() -> List[Dict]:
+    """Open-Meteo wind on a coarse Lahore grid; EPA wind units are unverified.
+
+    Limited to the timeline window in PLAN.md section 6.3 (past 48 h to
+    next 24 h).
+    """
+    now = datetime.now(timezone.utc)
+    window_start = now.timestamp() - 48 * 3600
+    window_end = now.timestamp() + 24 * 3600
+    samples: List[Dict] = []
+    for sample in fetch_openmeteo.fetch_wind_grid():
+        timestamp = datetime.fromisoformat(sample["timestamp"]).timestamp()
+        if not (window_start <= timestamp <= window_end):
+            continue
+        samples.append(WindVector(**sample).model_dump(mode="json"))
+    return samples
 
 
 def assemble_latest() -> Dict:
-    # Load station config
-    station_cfg = stations.load()
-    stations_list = []
-
-    # Stub loop – replace with real fetch logic
-    for cfg in station_cfg["stations"][:MAX_STATIONS]:
-        station = Station(
-            id=cfg["id"],
-            name=cfg["name"],
-            lat=cfg["lat"],
-            lon=cfg["lon"],
-        )
-        # Add placeholder pollutant readings
-        station_readings = [
-            PollutantReading(
-                pollutant="pm25",
-                concentration=35.0,
-                units="µg/m³",
-                observed_at=datetime.now(timezone.utc),
-                measured=True,
-                source=station.source,
-            )
-        ]
-        stations_list.append(
-            {
-                "station": station.model_dump(),
-                "readings": [r.model_dump() for r in station_readings],
+    """Fetch sources and return the full `latest.json` payload."""
+    fetched_at = datetime.now(timezone.utc)
+    try:
+        epa = fetch_epa.fetch_lahore()
+        raw_stations = epa["stations"]
+        hourly_forecast = {
+            entry["timestamp"]: entry
+            for entry in epa["forecast"]
+            if entry["timestamp"]
+        }
+        source_health = {
+            "epa": {
+                "status": "ok",
+                "stations": len(raw_stations),
+                "observed_at": epa["city"]["observed_at"],
             }
-        )
+        }
+    except Exception as exc:  # fall back to the labelled model source
+        fallback = fetch_openmeteo.fetch_city_fallback(*CITY_CENTER)
+        raw_stations = [
+            {
+                "id": "city-center",
+                "name": "Lahore city center (modelled)",
+                "lat": CITY_CENTER[0],
+                "lon": CITY_CENTER[1],
+                "aqi": None,
+                "aqi_standard": None,
+                "aqi_category": None,
+                "aqi_range": None,
+                "major_pollutant": None,
+                "temperature": None,
+                "humidity": None,
+                "pollutants": {
+                    name: values["concentration"]
+                    for name, values in fallback["pollutants"].items()
+                },
+                "pollutant_flags": None,
+                "observed_at": fallback["timestamp"],
+                "source": "open_meteo",
+                "measured": False,
+            }
+        ]
+        source_health = {"epa": {"status": "error", "error": str(exc)}}
+        hourly_forecast = {}
+
+    stations = _stations(raw_stations, fetched_at)
+    measurements = {raw["id"]: _readings(raw) for raw in raw_stations}
+
+    try:
+        wind = _wind()
+    except Exception as exc:
+        wind = []
+        source_health["open_meteo"] = {"status": "error", "error": str(exc)}
 
     latest = {
-        "schema_version": "1.0",
-        "data_version": datetime.now(timezone.utc).isoformat(),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "stations": [s["station"] for s in stations_list],
-        "measurements": [s["readings"] for s in stations_list],
+        "schema_version": SCHEMA_VERSION,
+        "data_version": fetched_at.isoformat(),
+        "generated_at": fetched_at.isoformat(),
+        "city": epa["city"] if source_health.get("epa", {}).get("status") == "ok" else {},
+        "stations": stations,
+        "measurements": measurements,
+        "forecast": {"hourly": hourly_forecast, "wind": wind},
+        "source_health": source_health,
     }
-    return latest
+    return validate_latest(latest)
+
+
+def assemble_history() -> Dict:
+    """Return the `history.json` payload (48 h of city-average EPA records)."""
+    fetched_at = datetime.now(timezone.utc)
+    try:
+        epa = fetch_epa.fetch_lahore()
+        records = epa["history"][-48:]
+        status = "ok"
+    except Exception as exc:
+        records = []
+        status = f"error: {exc}"
+    history = {
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": fetched_at.isoformat(),
+        "records": records,
+        "source_health": {"epa": {"status": status}},
+    }
+    validate_history(history)
+    return history
 
 
 def write_json(data: Dict, path: str) -> None:
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False, indent=2)
 
-if __name__ == "__main__":
-    # Create output directory if needed
-    out_dir = "out"
-    os.makedirs(out_dir, exist_ok=True)
+
+def main() -> None:
+    out_dir = os.environ.get("SMOG_OUT_DIR", "out")
     latest_path = os.path.join(out_dir, "latest.json")
+    history_path = os.path.join(out_dir, "history.json")
     manifest_path = os.path.join(out_dir, "manifest.json")
 
     latest = assemble_latest()
     write_json(latest, latest_path)
 
-    # Output a simple manifest
+    history = assemble_history()
+    write_json(history, history_path)
+
     manifest = Manifest(
-        schema_version="1.0",
+        schema_version=SCHEMA_VERSION,
         data_version=latest["data_version"],
         published_at=datetime.now(timezone.utc),
-        latest_url=f"{latest_path}",
-        history_url="history.json",  # placeholder
+        latest_url="latest.json",
+        history_url="history.json",
     )
-    write_json(manifest.model_dump(), manifest_path)
+    write_json(validate_manifest(manifest.model_dump(mode="json")).model_dump(mode="json"), manifest_path)
 
-    print(f"Wrote {latest_path} and {manifest_path}")
+    print(f"Wrote {latest_path}, {history_path} and {manifest_path}")
+
+
+if __name__ == "__main__":
+    main()

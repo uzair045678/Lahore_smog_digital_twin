@@ -1,64 +1,81 @@
 {
   "stations": [
     {
-      "id": "EPS001",
-      "name": "WAPDA Town",
-      "lat": 31.5204,
-      "lon": 74.3167
+      "id": "12",
+      "name": "Barki Road",
+      "lat": 31.53590314,
+      "lon": 74.43518805,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS002",
-      "name": "Township",
-      "lat": 31.4892,
-      "lon": 74.3181
+      "id": "15",
+      "name": "Shahdara",
+      "lat": 31.63812639,
+      "lon": 74.28518245,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS003",
-      "name": "Gulshan Ravi",
-      "lat": 31.4933,
-      "lon": 74.3500
+      "id": "18",
+      "name": "Kahna Nau",
+      "lat": 31.37096864,
+      "lon": 74.36509796,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS004",
-      "name": "Shalimar",
-      "lat": 31.5444,
-      "lon": 74.3889
+      "id": "19",
+      "name": "Multan Road",
+      "lat": 31.46379729,
+      "lon": 74.22594175,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS005",
-      "name": "Lahore College",
-      "lat": 31.5428,
-      "lon": 74.3656
+      "id": "22",
+      "name": "DHA Phase 6",
+      "lat": 31.45594422,
+      "lon": 74.46377265,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS006",
-      "name": "Cantt",
-      "lat": 31.5595,
-      "lon": 74.3428
+      "id": "23",
+      "name": "Punjab University",
+      "lat": 31.47965946,
+      "lon": 74.26608654,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS007",
-      "name": "Allama Iqbal Town",
-      "lat": 31.5550,
-      "lon": 74.3244
+      "id": "24",
+      "name": "Safari Park",
+      "lat": 31.38231477,
+      "lon": 74.21817282,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS008",
-      "name": "Data Ganj Baksh",
-      "lat": 31.5122,
-      "lon": 74.3944
+      "id": "25",
+      "name": "GT Road",
+      "lat": 31.57982567,
+      "lon": 74.35500334,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS009",
-      "name": "Saggian",
-      "lat": 31.5678,
-      "lon": 74.3522
+      "id": "27",
+      "name": "Gulberg III, Lahore",
+      "lat": 31.507172,
+      "lon": 74.338461,
+      "verified_at": "2026-10-24"
     },
     {
-      "id": "EPS010",
-      "name": "Model Town",
-      "lat": 31.5089,
-      "lon": 74.3481
+      "id": "29",
+      "name": "Wagha Border",
+      "lat": 31.60234176,
+      "lon": 74.54494994,
+      "verified_at": "2026-10-24"
+    },
+    {
+      "id": "30",
+      "name": "Egerton Road",
+      "lat": 31.56103547,
+      "lon": 74.33099891,
+      "verified_at": "2026-10-24"
     }
   ]
 }
