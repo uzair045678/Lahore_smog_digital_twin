@@ -5,19 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lahore Smog Twin</title>
     <style>
-      body { margin: 0; background: #0b0f14; color: #e6edf3; font-family: system-ui, sans-serif; }
-      main { max-width: 720px; margin: 32px auto; padding: 0 16px; }
-      .card { border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22; margin-bottom: 16px; }
-      .station { padding: 6px 0; border-bottom: 1px solid #21262d; font-size: 14px; }
-      .station:last-child { border-bottom: 0; }
+      html, body { margin: 0; overflow: hidden; font-family: system-ui, sans-serif; }
+      canvas { display: block; }
+      #hud { position: fixed; left: 16px; top: 16px; width: min(360px, calc(100vw - 32px)); padding: 12px; border: 1px solid #30363d; border-radius: 12px; background: rgba(22,27,34,0.9); color: #e6edf3; backdrop-filter: blur(8px); }
+      #hud label, #hud select { display: block; width: 100%; font-size: 14px; }
+      .row { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
+      .badge { background:#161b22; border:1px solid #30363d; border-radius:999px; padding:4px 8px; font-size:12px; }
+      .error { color:#f89; }
     </style>
   </head>
   <body>
-    <main>
-      <h1>Lahore Smog Twin</h1>
-      <p id="status" class="card">Loading latest data...</p>
-      <div id="stations" class="card"></div>
-    </main>
+    <canvas id="scene"></canvas>
+    <div id="hud">
+      <div id="status" class="badge">Loading latest data...</div>
+      <div class="row">
+        <label for="pollutant">Pollutant</label>
+        <select id="pollutant">
+          <option value="pm25">PM2.5</option>
+          <option value="pm10">PM10</option>
+          <option value="no2">NO2</option>
+          <option value="so2">SO2</option>
+          <option value="o3">O3</option>
+          <option value="co">CO</option>
+        </select>
+      </div>
+      <div class="row" id="stationList"></div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
