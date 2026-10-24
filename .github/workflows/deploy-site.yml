@@ -1,0 +1,50 @@
+name: Deploy site
+
+on:
+  push:
+    paths:
+      - "web/**"
+      - "package.json"
+      - ".github/workflows/deploy-site.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build frontend when present
+        run: |
+          set -euo pipefail
+          if [ -f web/package.json ]; then
+            cd web
+            npm ci
+            npm run build
+          else
+            echo "No web frontend yet; skipping build."
+          fi
+
+      - name: Upload Pages artifact
+        if: hashFiles('web/package.json') != ''
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+      - name: Deploy to GitHub Pages
+        if: hashFiles('web/package.json') != ''
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,100 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build and validate data
+        run: |
+          set -euo pipefail
+          python -m pipeline.build_latest
+          python - <<'PY'
+          import json
+          from pipeline.schema import validate_latest, validate_history
+          latest = json.load(open("out/latest.json", encoding="utf-8"))
+          history = json.load(open("out/history.json", encoding="utf-8"))
+          manifest = json.load(open("out/manifest.json", encoding="utf-8"))
+          validate_latest(latest)
+          validate_history(history)
+          for key in ("schema_version", "data_version", "published_at", "latest_url", "history_url"):
+              assert key in manifest, f"manifest missing {key}"
+          assert latest["stations"], "latest has no stations"
+          assert history["records"], "history has no records"
+          print("validated:", len(latest["stations"]), "stations,", len(history["records"]), "history records")
+          PY
+
+      - name: Publish immutable snapshots and switch manifest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          REMOTE="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          WORK=$(mktemp -d)
+          if git ls-remote --exit-code --heads "$REMOTE" data >/dev/null 2>&1; then
+            git clone --depth 1 --branch data "$REMOTE" "$WORK"
+          else
+            mkdir -p "$WORK"
+            git -C "$WORK" init --quiet
+            git -C "$WORK" remote add origin "$REMOTE"
+            git -C "$WORK" switch --orphan data
+          fi
+
+          DATA_VERSION=$(python -c 'import json; print(json.load(open("out/latest.json",encoding="utf-8"))["data_version"])')
+          SNAPSHOT="$WORK/snapshots/$DATA_VERSION"
+          mkdir -p "$SNAPSHOT"
+          cp out/latest.json "$SNAPSHOT/latest.json"
+          cp out/history.json "$SNAPSHOT/history.json"
+
+          python - "$WORK/manifest.json" "$DATA_VERSION" "$GITHUB_REPOSITORY" <<'PY'
+          import datetime, json, os, sys
+          destination, version, repository = sys.argv[1:]
+          manifest = {
+              "schema_version": "1.0",
+              "data_version": version,
+              "published_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "latest_url": f"https://raw.githubusercontent.com/{repository}/data/snapshots/{version}/latest.json",
+              "history_url": f"https://raw.githubusercontent.com/{repository}/data/snapshots/{version}/history.json",
+          }
+          with open(destination, "w", encoding="utf-8") as fh:
+              json.dump(manifest, fh, indent=2)
+              fh.write("\n")
+          PY
+
+          find "$WORK/snapshots" -mindepth 1 -maxdepth 1 -type d -name '*' -mtime +7 -print -exec rm -rf {} + 2>/dev/null || true
+
+          git -C "$WORK" add -A
+          if git -C "$WORK" diff --cached --quiet; then
+            echo "No data changes to publish"
+          else
+            git -C "$WORK" -c user.name="github-actions[bot]" \
+                -c user.email="github-actions[bot]@users.noreply.github.com" \
+                commit -m "data: $DATA_VERSION"
+            git -C "$WORK" push origin data
+            echo "Published $DATA_VERSION"
+          fi
