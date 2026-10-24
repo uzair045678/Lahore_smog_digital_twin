@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lahore Smog Twin - city base preview</title>
+  <style>
+    body { margin: 0; background: #111; color: #ddd; font-family: system-ui, sans-serif; }
+    header { padding: 12px 16px; font-size: 14px; }
+    canvas { display: block; width: 100vw; height: calc(100vh - 48px); }
+  </style>
+</head>
+<body>
+  <header>Greybox Lahore outline + monitoring stations. Buildings omitted intentionally for clarity.</header>
+  <canvas id="board"></canvas>
+  <script>
+    (async () => {
+      const res = await fetch("city/lahore.json");
+      const city = await res.json();
+      const canvas = document.getElementById("board");
+      const ctx = canvas.getContext("2d");
+      const dpr = window.devicePixelRatio || 1;
+      const width = window.innerWidth;
+      const height = window.innerHeight - 48;
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+      ctx.scale(dpr, dpr);
+      ctx.translate(width / 2, height / 2);
+      const scale = Math.min(width, height) / 40000;
+      ctx.scale(scale, -scale);
+      ctx.lineWidth = 8;
+      ctx.strokeStyle = "#666";
+      ctx.beginPath();
+      city.boundary.forEach((point, index) => {
+        if (index === 0) ctx.moveTo(point.x, point.y);
+        else ctx.lineTo(point.x, point.y);
+      });
+      ctx.closePath();
+      ctx.stroke();
+      ctx.fillStyle = "#29d";
+      for (const station of city.stations) {
+        ctx.beginPath();
+        ctx.arc(station.x, station.y, 350, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.fillStyle = "#fff";
+      ctx.font = "400px sans-serif";
+      for (const station of city.stations) {
+        ctx.fillText(station.name, station.x + 500, station.y + 500);
+      }
+    })();
+  </script>
+</body>
+</html>
