@@ -7,8 +7,8 @@ venv/
 .pytest_cache/
 
 # Pipeline output (published to the `data` branch by CI, not stored in the repo)
-out/
-data/
+/out/
+/data/
 
 # Node / frontend
 node_modules/
