@@ -7,11 +7,13 @@
     <style>
       html, body { margin: 0; overflow: hidden; font-family: system-ui, sans-serif; }
       canvas { display: block; }
-      #hud { position: fixed; left: 16px; top: 16px; width: min(360px, calc(100vw - 32px)); padding: 12px; border: 1px solid #30363d; border-radius: 12px; background: rgba(22,27,34,0.9); color: #e6edf3; backdrop-filter: blur(8px); }
-      #hud label, #hud select { display: block; width: 100%; font-size: 14px; }
+      #hud { position: fixed; left: 16px; top: 16px; width: min(360px, calc(100vw - 32px)); padding: 12px; border: 1px solid #30363d; border-radius: 12px; background: rgba(22,27,34,0.92); color: #e6edf3; backdrop-filter: blur(8px); z-index: 2; }
+      #timeline { position: fixed; left: 16px; right: 16px; bottom: 16px; padding: 12px; border: 1px solid #30363d; border-radius: 12px; background: rgba(22,27,34,0.92); color: #e6edf3; backdrop-filter: blur(8px); z-index: 2; }
       .row { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
       .badge { background:#161b22; border:1px solid #30363d; border-radius:999px; padding:4px 8px; font-size:12px; }
       .error { color:#f89; }
+      input[type="range"] { width: 100%; }
+      #stationList, #timeLabel { font-size: 13px; line-height: 1.4; }
     </style>
   </head>
   <body>
@@ -29,7 +31,17 @@
           <option value="co">CO</option>
         </select>
       </div>
-      <div class="row" id="stationList"></div>
+      <div id="stationList" class="row" style="flex-wrap:wrap;"></div>
+    </div>
+    <div id="timeline">
+      <div class="row">
+        <button id="play">Play</button>
+        <button id="previous">Prev</button>
+        <input id="scrubber" type="range" min="0" max="72" value="48" aria-label="Timeline hours" />
+        <button id="next">Next</button>
+      </div>
+      <div id="timeLabel" class="row"></div>
+      <div id="sourceLabel" class="row"></div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>

@@ -34,6 +34,10 @@ export class CityScene {
   private stationIds: string[] = [];
   private heatmap: THREE.Points | null = null;
   private heatPoints: Array<{ lat: number; lon: number }> = [];
+  private latestSnapshot: LatestData | null = null;
+  private readonly timeWind = new THREE.Vector3();
+  private stationBaseValues = new Map<string, number | null>();
+  private timeScale = 1;
   private heatColors: Float32Array | null = null;
   private readonly particleVelocity = new THREE.Vector3();
   private animationId = 0;
@@ -145,29 +149,54 @@ export class CityScene {
   }
 
   public setSnapshot(snapshot: LatestData, pollutant: Pollutant): void {
-    const stationValueById = new Map<string, number | null>();
+    this.latestSnapshot = snapshot;
+    this.stationBaseValues.clear();
     snapshot.stations.forEach((station) => {
       const measurement = snapshot.measurements[station.id]?.find((entry) => entry.pollutant === pollutant);
-      stationValueById.set(station.id, measurement?.concentration ?? (pollutant === "pm25" ? (station.aqi != null ? station.aqi / 10 : null) : null));
+      const value = measurement?.concentration ?? (pollutant === "pm25" && station.aqi != null ? (station.aqi / 10) : null);
+      this.stationBaseValues.set(station.id, typeof value === "number" ? value : null);
     });
-    // Keep the heatmap tied to station observations; do not falsely convert AQI to particle/gas values.
+    this.timeScale = 1;
+    const windVector = this.averageWind(snapshot);
+    this.particleVelocity.set(windVector.east, 0, windVector.north);
+    if (this.particles) {
+      const material = this.particles.material as THREE.PointsMaterial;
+      material.size = windVector.speed > 1 ? 2.2 : 1.6;
+    }
+    this.refreshVisuals();
+  }
+
+  public setTimeSample(scale: number, windEast: number, windNorth: number): void {
+    this.timeScale = Math.min(Math.max(scale, 0.2), 5);
+    this.timeWind.set(windEast, 0, windNorth);
+    this.particleVelocity.copy(this.timeWind);
+    this.refreshVisuals();
+  }
+
+  private refreshVisuals(): void {
+    if (!this.city || !this.latestSnapshot) return;
+    const values = new Map<string, number | null>(this.stationBaseValues);
+    if (values.size === 0) {
+      this.latestSnapshot.stations.forEach((station) => values.set(station.id, null));
+    }
     this.stationMeshes.forEach((mesh, index) => {
       const id = this.stationIds[index];
-      const value = id ? stationValueById.get(id) : null;
+      const base = id ? (values.get(id) ?? null) : null;
+      const scaled = base == null ? null : base * this.timeScale;
       const material = mesh.material as THREE.MeshStandardMaterial;
-      const color = colorFor(value == null ? null : value);
+      const color = colorFor(scaled);
       material.color.setRGB(color[0], color[1], color[2]);
       material.emissive.setRGB(color[0] * 0.35, color[1] * 0.35, color[2] * 0.35);
-      const newest = value == null ? 3 : Math.max(3, Math.min(9, (value / 50) * 9));
+      const newest = scaled == null ? 3 : Math.max(3, Math.min(9, (scaled / 50) * 9));
       mesh.scale.setScalar(newest / 3);
     });
 
-    const sources = this.city?.stations.map((station) => ({
+    const sources = this.city.stations.map((station) => ({
       id: station.id,
       lat: station.lat,
       lon: station.lon,
-      value: stationValueById.get(station.id) ?? null,
-    })) ?? [];
+      value: ((values.get(station.id) ?? null) == null ? null : ((values.get(station.id) as number) * this.timeScale)),
+    }));
     const results = interpolateGrid(sources, this.heatPoints);
     if (this.heatColors) {
       for (let index = 0; index < results.length; index++) {
@@ -176,16 +205,8 @@ export class CityScene {
         this.heatColors[index * 3 + 1] = color[1];
         this.heatColors[index * 3 + 2] = color[2];
       }
-      if (this.heatmap?.geometry.getAttribute("color")) {
-        (this.heatmap.geometry.getAttribute("color") as THREE.BufferAttribute).needsUpdate = true;
-      }
-    }
-
-    const windVector = this.averageWind(snapshot);
-    this.particleVelocity.set(windVector.east, 0, windVector.north);
-    if (this.particles) {
-      const material = this.particles.material as THREE.PointsMaterial;
-      material.size = windVector.speed > 1 ? 2.2 : 1.6;
+      const attribute = this.heatmap?.geometry.getAttribute("color") as THREE.BufferAttribute | undefined;
+      if (attribute) attribute.needsUpdate = true;
     }
   }
 

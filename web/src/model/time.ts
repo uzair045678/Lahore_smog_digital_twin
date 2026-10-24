@@ -34,3 +34,15 @@ export function nearestValue(series: readonly TimedValue[], target: string): num
   if (!best || best.delta > 90 * 60 * 1000) return null;
   return best.value;
 }
+
+export function timelineSegment(index: number, historyLength = AQI_CONFIG.historyHours): "past" | "now" | "future" {
+  if (index < historyLength) return "past";
+  if (index === historyLength) return "now";
+  return "future";
+}
+
+export function formatClock(value: string): string {
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return value;
+  return parsed.toLocaleString(undefined, { weekday: "short", hour: "2-digit", minute: "2-digit", month: "short", day: "numeric" });
+}
