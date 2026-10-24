@@ -144,7 +144,7 @@ def assemble_latest() -> Dict:
 
     latest = {
         "schema_version": SCHEMA_VERSION,
-        "data_version": fetched_at.isoformat(),
+        "data_version": fetched_at.strftime("%Y-%m-%dT%H-%M-%SZ"),
         "generated_at": fetched_at.isoformat(),
         "city": epa["city"] if source_health.get("epa", {}).get("status") == "ok" else {},
         "stations": stations,

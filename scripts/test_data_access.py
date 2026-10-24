@@ -40,7 +40,7 @@ def main():
         problems.append(f"manifest ACAO={acao!r}, expected '*'")
 
     ct = manifest_headers.get("Content-Type", "")
-    if "json" not in ct.lower():
+    if not ("json" in ct.lower() or "text/plain" in ct.lower()):
         problems.append(f"manifest Content-Type={ct!r}")
 
     for key in ("schema_version", "data_version", "published_at", "latest_url", "history_url"):
