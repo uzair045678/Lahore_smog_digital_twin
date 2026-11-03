@@ -1,0 +1,93 @@
+{
+  "schema_version": "low-pilot-stats-v1",
+  "input": "F:\\_PROJECTS\\Lahore Smog Twin\\city-data\\pilot\\lahore_pilot.json",
+  "config": {
+    "tolerance_m": 0.5,
+    "max_area_error": 0.02,
+    "max_centroid_displacement_m": 0.5,
+    "preserve_holes": true
+  },
+  "geometry": {
+    "buildingsGenerated": 4475,
+    "buildingsFailed": 0,
+    "originalVertices": 24247,
+    "simplifiedVertices": 23541,
+    "buildingTriangles": 76812,
+    "holesRetained": 137,
+    "holesOmitted": 0,
+    "fallbackToOriginal": 10,
+    "maxCentroidDisplacementM": 0.19428080759565525,
+    "maxAreaError": 0.019331994676410794,
+    "originalRoadRecords": 9957,
+    "renderedRoadRecords": 9957,
+    "omittedRoadRecords": 0,
+    "roadOriginalVertices": 53142,
+    "roadSimplifiedVertices": 53142,
+    "roadSegments": 43159
+  },
+  "toleranceMeasurements": [
+    {
+      "tolerance_m": 0.25,
+      "originalVertices": 24247,
+      "simplifiedVertices": 23682,
+      "reduction_percent": 2.33,
+      "maxAreaError": 0.008594,
+      "maxCentroidDisplacementM": 0.1858,
+      "unsafeBuildings": 0
+    },
+    {
+      "tolerance_m": 0.5,
+      "originalVertices": 24247,
+      "simplifiedVertices": 23490,
+      "reduction_percent": 3.122,
+      "maxAreaError": 0.153755,
+      "maxCentroidDisplacementM": 0.72,
+      "unsafeBuildings": 10
+    },
+    {
+      "tolerance_m": 1,
+      "originalVertices": 24247,
+      "simplifiedVertices": 23212,
+      "reduction_percent": 4.269,
+      "maxAreaError": 0.353206,
+      "maxCentroidDisplacementM": 0.9572,
+      "unsafeBuildings": 27
+    },
+    {
+      "tolerance_m": 2,
+      "originalVertices": 24247,
+      "simplifiedVertices": 22299,
+      "reduction_percent": 8.034,
+      "maxAreaError": 0.5109,
+      "maxCentroidDisplacementM": 2.2154,
+      "unsafeBuildings": 137
+    }
+  ],
+  "batches": [
+    {
+      "category": "unknown",
+      "buildingCount": 2612
+    },
+    {
+      "category": "residential",
+      "buildingCount": 1550
+    },
+    {
+      "category": "institutional",
+      "buildingCount": 86
+    },
+    {
+      "category": "commercial",
+      "buildingCount": 222
+    },
+    {
+      "category": "industrial",
+      "buildingCount": 5
+    }
+  ],
+  "materials": 6,
+  "meshes": 6,
+  "estimatedDrawCalls": 6,
+  "assetBytes": 8415496,
+  "buildingFailureIds": []
+}
