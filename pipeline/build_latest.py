@@ -31,11 +31,16 @@ CITY_CENTER = (31.5204, 74.3167)
 def _readings(station: Dict) -> List[Dict]:
     """Convert a station's pollutant values into validated readings."""
     readings = []
+    units = (
+        fetch_openmeteo.POLLUTANT_UNITS
+        if station["source"] == Source.OPEN_METEO.value
+        else fetch_epa.POLLUTANT_UNITS
+    )
     for pollutant, concentration in station["pollutants"].items():
         reading = PollutantReading(
             pollutant=pollutant,
             concentration=concentration,
-            units=fetch_epa.POLLUTANT_UNITS[pollutant],
+            units=units[pollutant],
             measured=station["measured"],
             observed_at=station["observed_at"],
             source=Source(station["source"]),
@@ -130,7 +135,10 @@ def assemble_latest() -> Dict:
                 "measured": False,
             }
         ]
-        source_health = {"epa": {"status": "error", "error": str(exc)}}
+        source_health = {
+            "epa": {"status": "error", "error": str(exc)},
+            "open_meteo": {"status": "ok", "role": "fallback"},
+        }
         hourly_forecast = {}
 
     stations = _stations(raw_stations, fetched_at)
