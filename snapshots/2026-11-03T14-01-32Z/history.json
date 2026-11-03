@@ -1,0 +1,971 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-03T14:01:36.102246+00:00",
+  "records": [
+    {
+      "timestamp": "2026-11-01T19:00:00+05:00",
+      "aqi": 290,
+      "aqi_range": "201-300",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 187.91,
+        "pm10": 422.44,
+        "no2": 85.79,
+        "so2": 31.29,
+        "o3": 35.53,
+        "co": 3.56
+      },
+      "temperature": 25.0,
+      "humidity": 70.9,
+      "wind_speed": 0.4,
+      "wind_direction": 165.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-01T20:00:00+05:00",
+      "aqi": 339,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 225.99,
+        "pm10": 476.9,
+        "no2": 90.02,
+        "so2": 37.22,
+        "o3": 25.73,
+        "co": 4.94
+      },
+      "temperature": 24.1,
+      "humidity": 75.3,
+      "wind_speed": 0.4,
+      "wind_direction": 166.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-01T21:00:00+05:00",
+      "aqi": 389,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 253.54,
+        "pm10": 520.21,
+        "no2": 89.39,
+        "so2": 43.77,
+        "o3": 19.65,
+        "co": 5.28
+      },
+      "temperature": 23.4,
+      "humidity": 77.2,
+      "wind_speed": 0.4,
+      "wind_direction": 193.1,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-01T22:00:00+05:00",
+      "aqi": 412,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 276.15,
+        "pm10": 542.16,
+        "no2": 87.28,
+        "so2": 49.33,
+        "o3": 18.87,
+        "co": 5.45
+      },
+      "temperature": 22.7,
+      "humidity": 79.4,
+      "wind_speed": 0.4,
+      "wind_direction": 178.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-01T23:00:00+05:00",
+      "aqi": 428,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 294.7,
+        "pm10": 538.68,
+        "no2": 82.71,
+        "so2": 62.31,
+        "o3": 16.34,
+        "co": 5.88
+      },
+      "temperature": 22.1,
+      "humidity": 80.9,
+      "wind_speed": 0.3,
+      "wind_direction": 181.6,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T00:00:00+05:00",
+      "aqi": 410,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 314.78,
+        "pm10": 566.45,
+        "no2": 81.41,
+        "so2": 68.66,
+        "o3": 14.45,
+        "co": 6.68
+      },
+      "temperature": 21.6,
+      "humidity": 83.0,
+      "wind_speed": 0.2,
+      "wind_direction": 142.5,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T01:00:00+05:00",
+      "aqi": 434,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 321.96,
+        "pm10": 583.58,
+        "no2": 77.04,
+        "so2": 53.94,
+        "o3": 13.36,
+        "co": 6.18
+      },
+      "temperature": 21.1,
+      "humidity": 84.4,
+      "wind_speed": 0.3,
+      "wind_direction": 182.3,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T02:00:00+05:00",
+      "aqi": 441,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 331.1,
+        "pm10": 563.7,
+        "no2": 79.5,
+        "so2": 47.46,
+        "o3": 10.81,
+        "co": 4.75
+      },
+      "temperature": 20.8,
+      "humidity": 85.6,
+      "wind_speed": 0.5,
+      "wind_direction": 200.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T03:00:00+05:00",
+      "aqi": 435,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 349.0,
+        "pm10": 565.76,
+        "no2": 80.0,
+        "so2": 41.62,
+        "o3": 11.38,
+        "co": 4.36
+      },
+      "temperature": 20.6,
+      "humidity": 86.1,
+      "wind_speed": 0.4,
+      "wind_direction": 238.3,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T04:00:00+05:00",
+      "aqi": 421,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 370.67,
+        "pm10": 624.6,
+        "no2": 74.31,
+        "so2": 44.34,
+        "o3": 12.58,
+        "co": 3.83
+      },
+      "temperature": 20.5,
+      "humidity": 86.0,
+      "wind_speed": 0.5,
+      "wind_direction": 220.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T05:00:00+05:00",
+      "aqi": 467,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 387.64,
+        "pm10": 625.04,
+        "no2": 67.34,
+        "so2": 63.46,
+        "o3": 15.22,
+        "co": 3.73
+      },
+      "temperature": 20.1,
+      "humidity": 86.5,
+      "wind_speed": 0.4,
+      "wind_direction": 190.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T06:00:00+05:00",
+      "aqi": 486,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 395.22,
+        "pm10": 650.34,
+        "no2": 64.98,
+        "so2": 79.14,
+        "o3": 16.14,
+        "co": 3.57
+      },
+      "temperature": 19.8,
+      "humidity": 87.3,
+      "wind_speed": 0.4,
+      "wind_direction": 150.9,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T07:00:00+05:00",
+      "aqi": 484,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 415.11,
+        "pm10": 620.62,
+        "no2": 57.27,
+        "so2": 82.81,
+        "o3": 16.55,
+        "co": 3.67
+      },
+      "temperature": 19.5,
+      "humidity": 88.0,
+      "wind_speed": 0.4,
+      "wind_direction": 138.8,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T08:00:00+05:00",
+      "aqi": 449,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 410.64,
+        "pm10": 593.74,
+        "no2": 62.28,
+        "so2": 67.69,
+        "o3": 15.59,
+        "co": 3.78
+      },
+      "temperature": 20.4,
+      "humidity": 86.3,
+      "wind_speed": 0.4,
+      "wind_direction": 119.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T09:00:00+05:00",
+      "aqi": 500,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 438.94,
+        "pm10": 646.58,
+        "no2": 76.14,
+        "so2": 58.67,
+        "o3": 21.71,
+        "co": 3.63
+      },
+      "temperature": 22.7,
+      "humidity": 80.6,
+      "wind_speed": 0.3,
+      "wind_direction": 148.6,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T10:00:00+05:00",
+      "aqi": 489,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 410.18,
+        "pm10": 639.08,
+        "no2": 66.75,
+        "so2": 62.71,
+        "o3": 48.22,
+        "co": 2.98
+      },
+      "temperature": 25.5,
+      "humidity": 71.4,
+      "wind_speed": 0.4,
+      "wind_direction": 132.6,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T11:00:00+05:00",
+      "aqi": 455,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 369.14,
+        "pm10": 559.99,
+        "no2": 49.24,
+        "so2": 43.82,
+        "o3": 72.87,
+        "co": 2.43
+      },
+      "temperature": 27.7,
+      "humidity": 66.3,
+      "wind_speed": 0.4,
+      "wind_direction": 135.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T12:00:00+05:00",
+      "aqi": 391,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 311.54,
+        "pm10": 481.62,
+        "no2": 34.2,
+        "so2": 47.02,
+        "o3": 105.63,
+        "co": 1.81
+      },
+      "temperature": 29.5,
+      "humidity": 61.7,
+      "wind_speed": 0.3,
+      "wind_direction": 124.8,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T13:00:00+05:00",
+      "aqi": 387,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 293.88,
+        "pm10": 449.66,
+        "no2": 25.18,
+        "so2": 42.79,
+        "o3": 130.84,
+        "co": 1.55
+      },
+      "temperature": 30.2,
+      "humidity": 59.2,
+      "wind_speed": 0.5,
+      "wind_direction": 192.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T14:00:00+05:00",
+      "aqi": 323,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 247.83,
+        "pm10": 406.03,
+        "no2": 31.25,
+        "so2": 38.91,
+        "o3": 141.67,
+        "co": 1.47
+      },
+      "temperature": 30.1,
+      "humidity": 58.3,
+      "wind_speed": 0.7,
+      "wind_direction": 208.8,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T15:00:00+05:00",
+      "aqi": 308,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 235.16,
+        "pm10": 390.75,
+        "no2": 27.66,
+        "so2": 34.44,
+        "o3": 149.08,
+        "co": 1.4
+      },
+      "temperature": 30.1,
+      "humidity": 57.4,
+      "wind_speed": 0.6,
+      "wind_direction": 177.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T16:00:00+05:00",
+      "aqi": 282,
+      "aqi_range": "201-300",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 219.72,
+        "pm10": 347.95,
+        "no2": 37.45,
+        "so2": 36.16,
+        "o3": 141.03,
+        "co": 1.55
+      },
+      "temperature": 29.4,
+      "humidity": 59.3,
+      "wind_speed": 0.7,
+      "wind_direction": 194.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T17:00:00+05:00",
+      "aqi": 294,
+      "aqi_range": "201-300",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 223.85,
+        "pm10": 403.51,
+        "no2": 63.94,
+        "so2": 36.09,
+        "o3": 107.3,
+        "co": 2.24
+      },
+      "temperature": 28.0,
+      "humidity": 63.4,
+      "wind_speed": 0.4,
+      "wind_direction": 170.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T18:00:00+05:00",
+      "aqi": 331,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 231.77,
+        "pm10": 449.53,
+        "no2": 92.21,
+        "so2": 32.43,
+        "o3": 59.77,
+        "co": 3.57
+      },
+      "temperature": 26.1,
+      "humidity": 68.7,
+      "wind_speed": 0.3,
+      "wind_direction": 147.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T19:00:00+05:00",
+      "aqi": 433,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 271.13,
+        "pm10": 543.89,
+        "no2": 105.46,
+        "so2": 37.07,
+        "o3": 35.56,
+        "co": 6.53
+      },
+      "temperature": 24.8,
+      "humidity": 72.5,
+      "wind_speed": 0.3,
+      "wind_direction": 167.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T20:00:00+05:00",
+      "aqi": 458,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 307.1,
+        "pm10": 609.29,
+        "no2": 111.46,
+        "so2": 41.62,
+        "o3": 19.88,
+        "co": 7.84
+      },
+      "temperature": 23.9,
+      "humidity": 75.9,
+      "wind_speed": 0.3,
+      "wind_direction": 154.2,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T21:00:00+05:00",
+      "aqi": 474,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 329.81,
+        "pm10": 625.32,
+        "no2": 111.47,
+        "so2": 44.58,
+        "o3": 15.38,
+        "co": 7.92
+      },
+      "temperature": 23.2,
+      "humidity": 78.0,
+      "wind_speed": 0.3,
+      "wind_direction": 186.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T22:00:00+05:00",
+      "aqi": 483,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 353.54,
+        "pm10": 641.56,
+        "no2": 108.31,
+        "so2": 49.6,
+        "o3": 11.6,
+        "co": 8.03
+      },
+      "temperature": 22.7,
+      "humidity": 79.6,
+      "wind_speed": 0.3,
+      "wind_direction": 194.9,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-02T23:00:00+05:00",
+      "aqi": 486,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 368.94,
+        "pm10": 670.58,
+        "no2": 107.04,
+        "so2": 51.34,
+        "o3": 9.14,
+        "co": 7.21
+      },
+      "temperature": 22.3,
+      "humidity": 80.1,
+      "wind_speed": 0.4,
+      "wind_direction": 249.0,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T00:00:00+05:00",
+      "aqi": 462,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 382.45,
+        "pm10": 675.36,
+        "no2": 98.68,
+        "so2": 58.19,
+        "o3": 9.11,
+        "co": 7.52
+      },
+      "temperature": 21.6,
+      "humidity": 82.1,
+      "wind_speed": 0.2,
+      "wind_direction": 151.8,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T01:00:00+05:00",
+      "aqi": 468,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 402.53,
+        "pm10": 679.88,
+        "no2": 92.78,
+        "so2": 56.89,
+        "o3": 5.55,
+        "co": 7.03
+      },
+      "temperature": 20.7,
+      "humidity": 85.2,
+      "wind_speed": 0.2,
+      "wind_direction": 190.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T02:00:00+05:00",
+      "aqi": 466,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 383.63,
+        "pm10": 670.36,
+        "no2": 87.28,
+        "so2": 50.75,
+        "o3": 4.92,
+        "co": 5.9
+      },
+      "temperature": 20.4,
+      "humidity": 86.0,
+      "wind_speed": 0.3,
+      "wind_direction": 222.8,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T03:00:00+05:00",
+      "aqi": 461,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 397.3,
+        "pm10": 618.65,
+        "no2": 76.57,
+        "so2": 48.84,
+        "o3": 6.86,
+        "co": 4.36
+      },
+      "temperature": 20.2,
+      "humidity": 85.9,
+      "wind_speed": 0.4,
+      "wind_direction": 229.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T04:00:00+05:00",
+      "aqi": 470,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 352.97,
+        "pm10": 562.05,
+        "no2": 68.49,
+        "so2": 43.93,
+        "o3": 9.18,
+        "co": 3.46
+      },
+      "temperature": 20.1,
+      "humidity": 85.7,
+      "wind_speed": 0.5,
+      "wind_direction": 199.9,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T05:00:00+05:00",
+      "aqi": 439,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 371.58,
+        "pm10": 540.46,
+        "no2": 73.39,
+        "so2": 48.05,
+        "o3": 7.09,
+        "co": 3.17
+      },
+      "temperature": 19.5,
+      "humidity": 87.0,
+      "wind_speed": 0.3,
+      "wind_direction": 210.5,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T06:00:00+05:00",
+      "aqi": 459,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 370.9,
+        "pm10": 585.34,
+        "no2": 64.84,
+        "so2": 55.4,
+        "o3": 7.74,
+        "co": 3.16
+      },
+      "temperature": 19.0,
+      "humidity": 88.4,
+      "wind_speed": 0.4,
+      "wind_direction": 222.6,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T07:00:00+05:00",
+      "aqi": 456,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 371.0,
+        "pm10": 567.37,
+        "no2": 61.61,
+        "so2": 61.16,
+        "o3": 8.24,
+        "co": 3.32
+      },
+      "temperature": 18.9,
+      "humidity": 89.1,
+      "wind_speed": 0.4,
+      "wind_direction": 185.9,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T08:00:00+05:00",
+      "aqi": 467,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 375.0,
+        "pm10": 592.9,
+        "no2": 73.53,
+        "so2": 53.8,
+        "o3": 8.67,
+        "co": 3.19
+      },
+      "temperature": 20.2,
+      "humidity": 87.3,
+      "wind_speed": 0.5,
+      "wind_direction": 210.5,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T09:00:00+05:00",
+      "aqi": 456,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 375.38,
+        "pm10": 570.66,
+        "no2": 81.33,
+        "so2": 65.45,
+        "o3": 20.12,
+        "co": 2.66
+      },
+      "temperature": 22.6,
+      "humidity": 78.5,
+      "wind_speed": 0.7,
+      "wind_direction": 189.7,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T10:00:00+05:00",
+      "aqi": 422,
+      "aqi_range": "401-500",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 339.08,
+        "pm10": 517.14,
+        "no2": 59.25,
+        "so2": 69.48,
+        "o3": 49.97,
+        "co": 1.87
+      },
+      "temperature": 25.6,
+      "humidity": 67.8,
+      "wind_speed": 0.8,
+      "wind_direction": 191.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T11:00:00+05:00",
+      "aqi": 301,
+      "aqi_range": "301-400",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 242.04,
+        "pm10": 382.49,
+        "no2": 31.14,
+        "so2": 49.08,
+        "o3": 84.66,
+        "co": 1.16
+      },
+      "temperature": 27.4,
+      "humidity": 62.3,
+      "wind_speed": 1.2,
+      "wind_direction": 182.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T12:00:00+05:00",
+      "aqi": 215,
+      "aqi_range": "201-300",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 158.39,
+        "pm10": 284.85,
+        "no2": 24.46,
+        "so2": 37.64,
+        "o3": 107.92,
+        "co": 1.02
+      },
+      "temperature": 28.9,
+      "humidity": 59.6,
+      "wind_speed": 0.9,
+      "wind_direction": 190.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T13:00:00+05:00",
+      "aqi": 196,
+      "aqi_range": "151-200",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 136.6,
+        "pm10": 264.98,
+        "no2": 23.5,
+        "so2": 35.1,
+        "o3": 125.06,
+        "co": 0.99
+      },
+      "temperature": 29.8,
+      "humidity": 58.0,
+      "wind_speed": 1.1,
+      "wind_direction": 199.4,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T14:00:00+05:00",
+      "aqi": 188,
+      "aqi_range": "151-200",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 126.81,
+        "pm10": 256.99,
+        "no2": 24.7,
+        "so2": 35.7,
+        "o3": 130.8,
+        "co": 0.97
+      },
+      "temperature": 30.3,
+      "humidity": 56.4,
+      "wind_speed": 1.1,
+      "wind_direction": 195.9,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T15:00:00+05:00",
+      "aqi": 181,
+      "aqi_range": "151-200",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 118.1,
+        "pm10": 249.79,
+        "no2": 26.13,
+        "so2": 29.76,
+        "o3": 128.52,
+        "co": 0.97
+      },
+      "temperature": 30.3,
+      "humidity": 55.6,
+      "wind_speed": 1.1,
+      "wind_direction": 221.6,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T16:00:00+05:00",
+      "aqi": 182,
+      "aqi_range": "151-200",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 119.62,
+        "pm10": 244.62,
+        "no2": 25.96,
+        "so2": 27.04,
+        "o3": 120.83,
+        "co": 0.97
+      },
+      "temperature": 30.0,
+      "humidity": 55.8,
+      "wind_speed": 1.0,
+      "wind_direction": 204.1,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T17:00:00+05:00",
+      "aqi": 180,
+      "aqi_range": "151-200",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 113.06,
+        "pm10": 256.58,
+        "no2": 42.21,
+        "so2": 25.35,
+        "o3": 94.62,
+        "co": 1.42
+      },
+      "temperature": 28.5,
+      "humidity": 59.0,
+      "wind_speed": 0.6,
+      "wind_direction": 192.9,
+      "source": "epa",
+      "measured": true
+    },
+    {
+      "timestamp": "2026-11-03T18:00:00+05:00",
+      "aqi": 201,
+      "aqi_range": "201-300",
+      "station_count": 11,
+      "pollutants": {
+        "pm25": 123.41,
+        "pm10": 320.47,
+        "no2": 81.58,
+        "so2": 27.05,
+        "o3": 47.58,
+        "co": 2.59
+      },
+      "temperature": 26.6,
+      "humidity": 63.7,
+      "wind_speed": 0.4,
+      "wind_direction": 200.0,
+      "source": "epa",
+      "measured": true
+    }
+  ],
+  "source_health": {
+    "epa": {
+      "status": "ok"
+    }
+  }
+}
