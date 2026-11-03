@@ -25,6 +25,7 @@ export interface TimedValue {
 export function nearestValue(series: readonly TimedValue[], target: string): number | null {
   let best: { delta: number; value: number | null } | null = null;
   const targetMs = Date.parse(target);
+  if (!Number.isFinite(targetMs)) return null;
   for (const entry of series) {
     const entryMs = Date.parse(entry.timestamp);
     if (!Number.isFinite(entryMs)) continue;

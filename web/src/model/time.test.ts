@@ -23,4 +23,7 @@ describe("time", () => {
     const series = [{ timestamp: "2024-06-01T10:00:00Z", value: 5 }];
     expect(nearestValue(series, "2024-06-01T13:00:00Z")).toBeNull();
   });
+  it("nearestValue returns null for an invalid target timestamp", () => {
+    expect(nearestValue([{ timestamp: "2024-06-01T10:00:00Z", value: 5 }], "not-a-date")).toBeNull();
+  });
 });

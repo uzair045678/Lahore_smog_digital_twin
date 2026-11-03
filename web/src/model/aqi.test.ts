@@ -24,6 +24,11 @@ describe("pm25ToAqi", () => {
     expect(pm25ToAqi(325.5)).toBe(401);
     expect(pm25ToAqi(500.4)).toBe(500);
   });
+  it("truncates to one decimal before interpolation", () => {
+    expect(pm25ToAqi(9.09)).toBe(50);
+    expect(pm25ToAqi(35.49)).toBe(100);
+    expect(pm25ToAqi(55.49)).toBe(150);
+  });
   it("caps values beyond scale at 500", () => {
     expect(pm25ToAqi(600)).toBe(500);
   });
