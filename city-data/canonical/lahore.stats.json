@@ -1,0 +1,79 @@
+{
+  "sha256": "679f264ed65b5de5fcd6839828692b3202ce6d6198f233ede0485a77e6897c8c",
+  "size_bytes": 97508562,
+  "statistics": {
+    "rejected": 2167,
+    "relation_rejections": 937,
+    "reject_relation_missing_members_or_invalid_ring": 937,
+    "accepted_relations": 192,
+    "direct": 28889,
+    "accepted_ways": 28697,
+    "way_rejections": 1230,
+    "reject_way_rejected_outside_boundary": 1227,
+    "duplicates_removed": 2,
+    "reject_way_unclosed_or_degenerate": 3,
+    "canonical_buildings": 28889,
+    "canonical_roads": 103240,
+    "building_height_sources": {
+      "fallback": 14963,
+      "explicit": 1167,
+      "levels": 12759
+    },
+    "malformed_height_or_levels": {
+      "levels": 5,
+      "height": 1
+    },
+    "building_types": {
+      "house": 15170,
+      "unknown": 11501,
+      "other": 271,
+      "college": 85,
+      "hotel": 26,
+      "school": 164,
+      "residential": 292,
+      "university": 126,
+      "hospital": 91,
+      "commercial": 689,
+      "industrial": 352,
+      "retail": 10,
+      "office": 9,
+      "apartments": 98,
+      "warehouse": 5
+    },
+    "road_classes": {
+      "service": 10574,
+      "footway": 2822,
+      "residential": 66421,
+      "tertiary": 2814,
+      "unclassified": 3348,
+      "living_street": 10907,
+      "primary": 650,
+      "secondary": 1572,
+      "primary_link": 463,
+      "secondary_link": 512,
+      "tertiary_link": 385,
+      "track": 618,
+      "trunk_link": 214,
+      "steps": 320,
+      "trunk": 215,
+      "pedestrian": 186,
+      "path": 222,
+      "motorway_link": 295,
+      "motorway": 202,
+      "construction": 409,
+      "cycleway": 49,
+      "busway": 23,
+      "crossing": 1,
+      "raceway": 4,
+      "road": 2,
+      "corridor": 7,
+      "services": 3,
+      "bridleway": 2
+    },
+    "road_width_sources": {
+      "missing": 103120,
+      "explicit": 120
+    },
+    "road_total_length_m": 19529852.528
+  }
+}

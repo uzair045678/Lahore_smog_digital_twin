@@ -1,0 +1,13 @@
+{
+  "selection_rule": "Select every canonical feature whose geographic bounds intersect the candidate rectangle; preserve the canonical record byte-for-byte inside the pilot subset.",
+  "score_rule": "score = 3 if building count is 2000-8000, +3 if all three height sources occur, +2 if classes >= 10, +2 if road classes >= 6, +2 if complex footprints >= 500, +2 if hole rings > 0, +2 if road records >= 5000; ties prefer more non-fallback heights, then more building classes.",
+  "candidates": {
+    "central_gulberg": {"west": 74.30, "south": 31.45, "east": 74.38, "north": 31.53},
+    "east_barki_dha": {"west": 74.38, "south": 31.45, "east": 74.46, "north": 31.53},
+    "south_kahna": {"west": 74.30, "south": 31.34, "east": 74.38, "north": 31.42},
+    "north_shahdara": {"west": 74.25, "south": 31.55, "east": 74.33, "north": 31.63},
+    "west_multan": {"west": 74.18, "south": 31.40, "east": 74.26, "north": 31.48},
+    "old_city_east": {"west": 74.31, "south": 31.54, "east": 74.39, "north": 31.62}
+  },
+  "selected": "central_gulberg"
+}

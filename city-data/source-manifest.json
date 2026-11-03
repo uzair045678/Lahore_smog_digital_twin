@@ -1,0 +1,12 @@
+{
+  "provider": "Geofabrik",
+  "source": "OpenStreetMap contributors",
+  "url": "https://download.geofabrik.de/asia/pakistan-latest.osm.pbf",
+  "snapshot": "pakistan-latest through 2026-11-01T21:21:36Z",
+  "downloaded_at": "2026-11-03",
+  "license": "ODbL 1.0",
+  "size_bytes": 157693520,
+  "sha256": "78aabfe999de353a4105ee52a29a2e8911044f8ec2a340e90518a0307606685a",
+  "boundary": "scripts/sources/lahore_boundary.json; OSM relation 16117666",
+  "processing": "Filter with scripts/normalize_city.py using a deterministic 0.001 degree processing buffer, then final polygon intersection with the Lahore boundary."
+}

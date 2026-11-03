@@ -19,7 +19,7 @@ One public GitHub repository contains the frontend, Python ingestion pipeline, a
 
 Rules that remove ambiguity:
 - Project name: **Lahore Smog Twin**. Public GitHub repo, MIT license for original project code (third-party data and map licenses remain separate).
-- Map extent: **entire Lahore**, using a verified boundary. All buildings are optional, simplified grey extrusions; selected recognizable landmarks may have basic silhouettes only. No detailed center, Orange Line corridor, facades or architectural reconstruction requirement. Render using LOD, tiling and culling.
+- Map extent: **entire Lahore**, using a verified boundary. City geometry is geographically grounded: real mapped footprints and roads where available, with tagged/inferred/fallback heights and scalable HIGH/LOW representations derived from one authoritative source pipeline. Footprints and heights do not provide photorealistic façades or architectural reconstruction, and the project must not claim otherwise. Render using tiling, culling and measured detail budgets.
 - Exactly **one pollutant layer selected at a time**. Default PM2.5; station detail panels can show other available pollutant measurements. Never apply PM2.5 AQI breakpoints to other pollutants.
 - Timeline: **past 48 hours, now, next 24-hour forecast**, hourly steps; display observed/modelled/forecast labels and coverage limitations.
 - Wind: **Punjab EPA preferred only where accessible, time-aligned, spatially appropriate, and licensed**; Open-Meteo provides gaps and spatial forecast grid. Do not pretend single-station wind is a citywide field.
@@ -44,7 +44,7 @@ Rules that remove ambiguity:
 **Non-goals**
 - No user accounts, no tracking of user location, no medical advice.
 - No claim that exposure numbers are clinically accurate. They are illustrative estimates.
-- No full-city building detail. A stylized, performance-budgeted model is the goal.
+- No photorealistic architectural reconstruction. A geographically accurate, performance-budgeted city model is the goal; coverage and detail remain subject to source availability and measurement.
 
 ## 2. Tech stack
 
@@ -77,7 +77,7 @@ Single repository, two workflows and a separate data publishing branch:
     config/stations.json
     tests/
   scripts/
-    build_city.py
+    build_city.py          # M3 geographic pipeline entrypoint/evolving baseline
     build_routes.py      # DEFERRED
   web/
     index.html
@@ -90,7 +90,7 @@ Single repository, two workflows and a separate data publishing branch:
       data/schema.ts
       model/
       ui/
-    public/city/
+    public/city/           # baseline/reference during migration, then tiled runtime assets
     public/demo/        # clearly labelled snapshot, never live
 ```
 
@@ -114,7 +114,10 @@ The `data` branch contains `manifest.json` and immutable versioned `latest.json`
 - AQICN station API for Lahore (free token stored as a GitHub secret). AQICN labels its data as unvalidated; use only as a fallback and label it.
 
 ### 4.4 Geometry
-- OpenStreetMap via Overpass (build time only, not at runtime): buildings, roads, Orange Line and station locations. Attribution (ODbL) is required.
+- OpenStreetMap is the primary build-time source for buildings, roads, boundary references and station alignment; runtime must not query Overpass. Attribution (ODbL) is required.
+- Evaluate Overture Maps as a secondary source only where measured coverage or metadata improves the result. Do not blindly combine datasets; begin with OSM alone when adequate.
+- Normalize source geometry, metadata and provenance before generating any runtime representation. Detect overlaps, apply documented source-precedence rules, avoid duplicate buildings, and preserve geometry/metadata provenance where practical.
+- Source acquisition must be reproducible, bounded to the approved Lahore extraction area, and documented with source date/version, license and extraction bounds.
 
 ### 4.5 Source priority and flags
 For each station and hour, record `source` = `epa | aqicn | model` and `measured: boolean`. Priority for compatible pollutant observations: EPA, then authorized AQICN fallback, then explicitly labelled Open-Meteo model. For wind use verified EPA samples where representative and Open-Meteo elsewhere. If all sources fail, keep last valid snapshots; calculate staleness in the client.
@@ -168,27 +171,83 @@ Parameters live in `model/config.ts` and are explicitly labelled as assumptions.
 
 The UI must say these are illustrative estimates based on stated assumptions, not medical advice.
 
-## 7. City geometry — greybox only (confirmed)
+## 7. City geometry — geographically accurate, performance-scalable Lahore
 
-**Design principle:** This is a pollution and smog data visualization, not an architectural reconstruction. City geometry is background geographic context. Do not spend milestone time on photorealism, detailed building meshes, facades, textures, interiors, or building-by-building height accuracy.
+**Design principle:** This is a pollution and smog data visualization, not a photorealistic architectural reconstruction. City geometry must prioritize correct real-world placement, recognizable urban structure, pollution/station usefulness and measured performance. Source footprints and heights do not provide photorealistic façades; the project must not claim architectural accuracy beyond the source metadata and geometry.
 
-- Verify Lahore's geographic boundary and coordinate reference; use OpenStreetMap/Overpass at **build time only**, respecting usage policy and attribution.
-- Build a lightweight city base with administrative outline, major roads, optional district boundaries, and a limited number of grey extruded building footprints or generic grey blocks. Missing building footprints are acceptable.
-- Optional simplified silhouettes for a handful of recognizable landmarks, only after pollution visualization is functional. Landmark selection requires no custom asset pipeline in V1.
-- No mandatory Orange Line corridor emphasis. A simple line is acceptable as a geographic reference if cheap to generate.
-- Reproject lat/lon into local metric coordinates with a documented origin and consistent scale. Keep station locations accurately positioned even if buildings are stylized.
-- Tile/cull geometry where useful. Use `InstancedMesh` for repeatable blocks or merged geometry for static tiles; avoid individual draw calls per building.
-- Initial **targets, not requirements**: 2,000–5,000 visible simple blocks at the city overview quality tier, ~300k triangles or fewer on Quest, and a mobile-friendly scene. Profile and adjust based on hardware.
-- Keep buildings low-contrast grey so the pollutant layer, station markers, and wind remain visually dominant.
+### 7.1 Sources and reconciliation
 
-**Acceptance:** A recognizable, geographically anchored Lahore overview with a clean greybox city base, visible monitoring stations, and no excessive geometry cost. The visualization must remain useful if all buildings are hidden.
+- Use OpenStreetMap as the primary build-time source for mapped building footprints, roads, building tags, levels, heights and selected landmarks; respect ODbL attribution and bounded extraction policies.
+- Evaluate Overture Maps only where measurements show a useful coverage or metadata improvement. The implementation must work with OSM alone when it is adequate.
+- Normalize sources before generation. Detect spatial overlaps, apply documented source-precedence rules, avoid duplicate buildings, and preserve geometry-source and metadata-source provenance where practical.
+- Record source date/version, license, extraction bounds, coverage gaps and reconciliation decisions. Do not fabricate missing footprints and do not silently present synthetic geometry as geographic data.
+
+### 7.2 Coordinate pipeline
+
+Use one centralized transform for all geographic layers:
+
+```text
+WGS84 latitude/longitude
+    → validated projected metric CRS (candidate: UTM Zone 43N / EPSG:32643)
+    → local Three.js coordinates relative to a documented Lahore origin
+```
+
+- Validate the selected CRS before locking it; do not assume the candidate is correct without checking Lahore coverage and distortion.
+- Apply the same transform to buildings, roads, the Lahore boundary, stations, landmarks and future pollution overlays.
+- Do not independently reimplement projections in pipeline and renderer code, and do not visually nudge misaligned layers.
+- M3 alignment tests must detect latitude/longitude swaps, axis inversion, scale mismatch, unexplained rotation/offset and station misplacement.
+
+### 7.3 Height strategy
+
+Resolve each building height deterministically using this precedence:
+
+1. valid explicit source height;
+2. source levels multiplied by a documented floor-height assumption;
+3. deterministic fallback based on available building metadata;
+4. conservative configurable default height.
+
+Record whether each height is tagged/measured, inferred or fallback. Clamp obviously invalid values, never assign random heights per build, and ensure identical source/configuration produces identical geometry.
+
+### 7.4 Shared HIGH and LOW representations
+
+Both representations must derive from the same normalized geographic data and retain aligned building identity, location, road alignment and resolved height semantics:
+
+```text
+Authoritative geographic sources
+    → normalization / deduplication / provenance
+    → validated projection and common origin
+    → deterministic height resolution
+    → spatial tiling
+        ├── HIGH geometry generation
+        └── LOW geometry generation
+```
+
+HIGH may retain fuller footprints, more road fidelity, selected justified landmarks and richer optimized materials. LOW must retain real locations, general footprints where practical, heights and road alignment while reducing vertices, materials, secondary geometry and distant detail through simplification, batching, culling and clustering. LOW must never mean random or invented buildings.
+
+### 7.5 Tiling, runtime format and rendering budgets
+
+- Divide the city into deterministic spatial tiles; do not ship one enormous mesh or raw JSON payload. Tile size is selected by measurement, not fixed here without benchmarking.
+- Tile metadata should include tile ID, geographic/local bounds, detail level, source/provenance references, building count and useful geometry statistics.
+- Evaluate GLB/glTF, tiled GLB/glTF or another browser-native format using transfer size, parse time, GPU cost and cache behavior. Do not mandate a dependency or format before measurement; `lahore.json` remains a migration baseline/reference only.
+- Design for frustum culling, tile loading, batching/merging, selective instancing where geometry repeats, low material count, material/texture reuse and distance-based detail reduction where justified.
+- Measure loaded/visible tiles, buildings, triangles, draw calls, asset/network size, load/parse time and frame time/FPS on representative desktop, mobile and WebXR hardware. Targets are hypotheses, not guarantees.
+- Selected landmarks may receive higher fidelity later, but must remain geographically aligned and must not block baseline M3.
+
+### 7.6 Failure behavior
+
+- If a HIGH tile is unavailable, try its LOW representation where available.
+- If some city tiles fail, continue with available city and pollution/station data.
+- If all city geometry fails, preserve pollution/station functionality and show an understandable degraded state where technically possible.
+- Never replace valid cached/generated geometry with corrupt output.
+
+**Acceptance:** A reproducibly generated, geographically grounded Lahore city has validated sources/provenance, a centralized metric coordinate frame, deterministic heights, spatial tiles, HIGH and LOW representations from the same data, aligned roads/stations, measured geometry/runtime costs, and no one-draw-call-per-building architecture. The pollution visualization remains useful when city geometry is hidden or unavailable.
 
 ## 8. Rendering (Three.js) — environmental data first
 
 ### 8.1 Scene composition
 
 - Orthographic or perspective camera with a default tilted/isometric overview, orbit/pan/zoom on desktop, touch controls on mobile, and a tabletop scale in WebXR.
-- Base: neutral ground, verified Lahore boundary, simplified major roads and optional grey blocks.
+- Base: neutral ground, verified Lahore boundary, tiled geographically grounded city representations and real road alignment where data is available.
 - Stations: interactive markers/columns located by verified lat/lon; tooltips show selected pollutant, units, source, observation time, and station name. Never use height/color without a legend.
 - Pollutant layer: **one selected pollutant at a time**, default PM2.5. Primary visualization is a ground-level color-coded concentration surface; optional subtle translucent haze is secondary and can be toggled off.
 - Use a typed grid (`Float32Array`) and `DataTexture`/`ShaderMaterial` or equivalent to render the field efficiently; mask areas outside Lahore and fade low-confidence interpolation. Do not portray interpolation as observed data.
@@ -208,7 +267,7 @@ The UI must say these are illustrative estimates based on stated assumptions, no
 
 - Start with a 64×64 pollution grid, adaptive particle budget (initially 500–2,000), and one active pollutant texture; tune after profiling.
 - Target 60 fps on capable desktop, usable adaptive mobile performance, and 72 fps on a tested Quest configuration; these are targets, not promises.
-- Provide quality tiers controlling buildings, particles, resolution and haze. Avoid high overdraw from many transparent fog layers.
+- Provide later quality tiers controlling HIGH/LOW city geometry, particles, resolution and haze. Avoid high overdraw from many transparent fog layers; M3 establishes the representations and budgets, while M7 owns runtime AUTO selection.
 - Keep the main scene functional with station markers and a simple heatmap when advanced visual effects are disabled.
 
 ## 9. UI
@@ -241,6 +300,8 @@ The Orange Line mode is offered only for routes where both endpoints are within 
 - Add an "Enter VR" button using Three.js's XR button helper. Only show it if `navigator.xr` reports `immersive-vr` support. Session start requires a user tap.
 - Scale the city to a tabletop model (about 1 m wide). Grab with controllers or hands to move, rotate and scale.
 - Interaction: point or pinch a station to open its card, a floating wrist or panel UI for the time scrubber. Support controllers as a fallback when hand tracking is unavailable.
+- M7 selects among the M3 HIGH and LOW representations. AUTO is the normal adaptive mode and must use observed rolling frame time/FPS, draw calls, visible geometry, loading failures and reliable browser/device hints where available, with hysteresis and cooldowns. Start conservatively in WebXR and do not treat inaccessible hardware metrics as available.
+- Manual HIGH and LOW overrides support testing and user control; production UI exposure belongs to M7, not M3.
 - Optional stretch: `immersive-ar` passthrough on Quest for a tabletop in the real room. Verify browser support on the current Quest firmware before building.
 - Test loop: develop with the Immersive Web Emulator extension, then run a short real-headset checklist: loads over HTTPS, enter/exit VR, hand tracking, readable panel text, stable frame rate, comfortable scale.
 
@@ -282,10 +343,17 @@ The Orange Line mode is offered only for routes where both endpoints are within 
 **Accept**: all tests pass; config holds all assumptions; no rendering code yet.
 **Prompt**: "Implement milestone M2 per PLAN.md section 6 as pure TypeScript modules with Vitest tests. Verify the EPA PM2.5 breakpoints against official documentation and cite the source in a comment."
 
-### M3 — Greybox city geometry
-**Deliver**: `build_city.py`, simplified greybox blocks and major roads for Lahore, geographic alignment tests, and a preview page. No detailed architecture or landmark modelling required.
-**Accept**: low draw-call/triangle cost, correct station alignment, clean overview on desktop, buildings can be hidden without losing data utility.
-**Prompt**: "Implement milestone M3 per PLAN.md section 7. Keep geometry minimal and greyboxed. Report geographic alignment, triangle count, draw calls, and file sizes. Show a screenshot; do not create detailed buildings."
+### M3 — Geographically Accurate Scalable Lahore City
+**Deliver**: one authoritative, reproducible geographic city pipeline producing aligned HIGH and LOW tiled representations from real mapped footprints/roads and documented height/provenance rules. M3 is subdivided into the reviewable subphases below; do not skip a subphase or begin M4 before M3F and owner approval.
+
+- **M3A — Source and coverage evaluation:** evaluate OSM and, only where measured useful, Overture; document coverage, source precedence, provenance, licensing and extraction bounds.
+- **M3B — Geographic normalization:** validate the projected CRS, centralize the common origin/transform, normalize buildings/roads, reconcile duplicates, resolve heights and preserve provenance.
+- **M3C — Spatial city pipeline:** generate deterministic tiles, metadata and reproducible browser assets; benchmark candidate runtime formats and tile sizes.
+- **M3D — HIGH representation:** generate higher-detail aligned geometry, optimized materials/roads and measured geometry/load/render costs.
+- **M3E — LOW representation:** generate simplified aligned geometry from the same normalized source and benchmark it against HIGH.
+- **M3F — Alignment and acceptance:** validate stations, roads, buildings and reference points; verify HIGH/LOW consistency, production build, graceful failure behavior and performance report.
+
+**Accept**: source/provenance, deterministic projection, height strategy, deduplication, tiling, HIGH and LOW assets, alignment tests, runtime format and measured performance satisfy section 7. Do not claim photorealistic façades or unmeasured performance.
 
 ### M4 — 3D scene with live data
 **Deliver**: station columns, primary pollution heatmap, optional subtle haze, wind particles, orbit camera, data loader, freshness banner, pollutant selector and legend.
@@ -301,10 +369,10 @@ The Orange Line mode is offered only for routes where both endpoints are within 
 **Accept**: results match unit-tested math; assumptions are visible in the UI; Orange Line route verified.
 **Prompt**: "Implement milestone M6 per PLAN.md sections 6.4 and 10. Show the assumptions table in an info panel."
 
-### M7 — WebXR
-**Deliver**: Enter VR, tabletop scaling and manipulation, station selection, XR panel UI, quality auto-scaling.
+### M7 — WebXR and adaptive quality
+**Deliver**: Enter VR, tabletop scaling and manipulation, station selection, XR panel UI, and production AUTO/HIGH/LOW runtime quality selection over the M3 representations.
 **Accept**: works in the emulator; passes the real-headset checklist in section 11 on a borrowed device.
-**Prompt**: "Implement milestone M7 per PLAN.md section 11. Give me a short device checklist to run on the headset, and list anything you could not verify without hardware."
+**Prompt**: "Implement milestone M7 per PLAN.md section 11 and the M3 HIGH/LOW assets. Use rolling observed frame time/FPS, draw calls, visible geometry, loading failures and reliable browser hints where available; use hysteresis/cooldowns, start conservatively in WebXR, and document headset-only checks."
 
 ### M8 — Polish, docs, launch
 **Deliver**: mobile layout pass, accessibility pass, README with architecture diagram, data and assumption docs, demo mode (a recorded data snapshot for screenshots), Lighthouse report, deployed link.
@@ -317,7 +385,7 @@ The Orange Line mode is offered only for routes where both endpoints are within 
 | EPA data has no API or blocks scraping | Inspect for hidden endpoint; fall back to AQICN and Open-Meteo, labelled; keep a documented manual-snapshot option for demos |
 | Station data delays or gaps | Per-station freshness, stale banner, never fabricate values |
 | Sparse stations make interpolation misleading | Confidence fade, "model estimate" labelling, no precise claims between stations |
-| Quest performance | Triangle and particle budgets, XR quality tier, early device test |
+| Quest performance | M3 HIGH/LOW geometry budgets, M7 conservative XR selection, measured headset tests and early device validation |
 | Exposure numbers misread as medical | Prominent "illustrative" label, visible assumptions, relative comparisons first |
 | Terms or attribution issues | Section 14 checklist before public launch |
 
@@ -330,7 +398,7 @@ The Orange Line mode is offered only for routes where both endpoints are within 
 
 ## 18. Confirmed decisions and unresolved blockers
 
-**Confirmed by owner:** Entire Lahore with simplified outer areas; one selected pollutant layer at a time; past 48 h and next 24 h; EPA wind preferred with Open-Meteo gap filling; public educational/portfolio use; Option C data architecture.
+**Confirmed by owner:** Entire Lahore with geographically grounded outer areas; one selected pollutant layer at a time; past 48 h and next 24 h; EPA wind preferred with Open-Meteo gap filling; public educational/portfolio use; Option C data architecture; M3 HIGH and LOW representations must derive from one authoritative geographic source pipeline.
 
 **Blockers before M1B:**
 1. Does Punjab EPA expose an accessible endpoint or permitted export, and what are the terms/rate limits? Document actual requests/responses, not assumptions.
@@ -356,13 +424,13 @@ The Orange Line mode is offered only for routes where both endpoints are within 
 
 ## 20. Owner-confirmed scope freeze
 
-- Entire Lahore with simplified outer areas; greybox buildings throughout, with optional minor landmark silhouettes.
+- Entire Lahore with geographically grounded building footprints and roads where mapped, deterministic tagged/inferred/fallback heights, and optional aligned landmarks; no photorealistic façade claim.
 - One active pollutant layer at a time, default PM2.5.
 - Past 48 hours and next 24-hour forecast.
 - Punjab EPA wind preferred where suitable; Open-Meteo for missing coverage.
 - Public educational and portfolio demonstration, not commercial/clinical/operational decision support.
 - Option C: single repository, separate website and data deployment workflows.
-- No route/exposure feature, detailed building reconstruction, or validated scrubber intervention simulation in V1.
+- No route/exposure feature, photorealistic architectural reconstruction, or validated scrubber intervention simulation in V1.
 
 ---
 
@@ -409,7 +477,7 @@ At the end of **every** phase or approved subphase, report in this exact order:
 
 ### 21.5 Phase sequence
 
-Follow the phase breakdown already defined in this plan: **M1A → M1B → M1C → M2 → M3 → M4 → M5 → M7 → M8**. **M6 is deferred**. Further split any large phase into small reviewable subphases without changing this order unless the owner explicitly approves a change. For M1A, the deliverable is an evidence-backed source-access report, not a working scraper or website.
+Follow the phase breakdown already defined in this plan: **M1A → M1B → M1C → M2 → M3 → M4 → M5 → M7 → M8**. **M6 is deferred**. M3 contains the ordered owner-reviewable subphases **M3A → M3B → M3C → M3D → M3E → M3F**; each is a subphase within M3, not a new top-level milestone, and M4 remains gated on completed M3F plus owner approval. Further split any large phase into small reviewable subphases without changing this order unless the owner explicitly approves a change. For M1A, the deliverable is an evidence-backed source-access report, not a working scraper or website.
 
 ### 21.6 Definition of done
 

@@ -1,0 +1,473 @@
+{
+  "pilot_sha256": "fccc99605fe314bc625348541f7e3334244ff0128892998e128c12cfdef3f95e",
+  "size_bytes": 10862339,
+  "generation_seconds": 3.983,
+  "statistics": {
+    "buildings": 4475,
+    "roads": 9957,
+    "road_length_km": 1707.135,
+    "height_sources": {
+      "explicit": 41,
+      "fallback": 2361,
+      "levels": 2073
+    },
+    "building_classes": {
+      "other": 58,
+      "unknown": 2554,
+      "house": 1544,
+      "college": 24,
+      "retail": 4,
+      "commercial": 212,
+      "school": 33,
+      "hospital": 18,
+      "apartments": 4,
+      "office": 1,
+      "hotel": 5,
+      "university": 11,
+      "residential": 2,
+      "industrial": 3,
+      "warehouse": 2
+    },
+    "building_class_count": 15,
+    "road_classes": {
+      "residential": 6582,
+      "service": 958,
+      "living_street": 826,
+      "track": 9,
+      "unclassified": 171,
+      "footway": 323,
+      "secondary": 246,
+      "primary": 90,
+      "primary_link": 84,
+      "secondary_link": 127,
+      "trunk_link": 26,
+      "tertiary": 312,
+      "steps": 64,
+      "path": 21,
+      "tertiary_link": 40,
+      "construction": 8,
+      "trunk": 30,
+      "pedestrian": 29,
+      "cycleway": 5,
+      "busway": 6
+    },
+    "road_class_count": 20,
+    "complex_footprints": 526,
+    "multipolygons": 61,
+    "holes": 137,
+    "vertex_count": {
+      "min": 3,
+      "median": 4,
+      "max": 85
+    },
+    "explicit_width_roads": 11
+  },
+  "fixtures": {
+    "simple": "osm_way_797925441",
+    "irregular": "osm_relation_9231042",
+    "explicit": "osm_relation_13831582",
+    "levels": "osm_way_1045971056",
+    "fallback": "osm_relation_16385185",
+    "multipolygon": "osm_relation_13831582",
+    "hole": "osm_relation_13831582",
+    "major": "osm_way_10116339",
+    "secondary_tertiary": "osm_way_10116120",
+    "residential": "osm_way_1008190211",
+    "complex_road": "osm_way_1530841069"
+  },
+  "candidate_scores": {
+    "central_gulberg": {
+      "bounds": {
+        "west": 74.3,
+        "south": 31.45,
+        "east": 74.38,
+        "north": 31.53
+      },
+      "statistics": {
+        "buildings": 4475,
+        "roads": 9957,
+        "road_length_km": 1707.135,
+        "height_sources": {
+          "explicit": 41,
+          "fallback": 2361,
+          "levels": 2073
+        },
+        "building_classes": {
+          "other": 58,
+          "unknown": 2554,
+          "house": 1544,
+          "college": 24,
+          "retail": 4,
+          "commercial": 212,
+          "school": 33,
+          "hospital": 18,
+          "apartments": 4,
+          "office": 1,
+          "hotel": 5,
+          "university": 11,
+          "residential": 2,
+          "industrial": 3,
+          "warehouse": 2
+        },
+        "building_class_count": 15,
+        "road_classes": {
+          "residential": 6582,
+          "service": 958,
+          "living_street": 826,
+          "track": 9,
+          "unclassified": 171,
+          "footway": 323,
+          "secondary": 246,
+          "primary": 90,
+          "primary_link": 84,
+          "secondary_link": 127,
+          "trunk_link": 26,
+          "tertiary": 312,
+          "steps": 64,
+          "path": 21,
+          "tertiary_link": 40,
+          "construction": 8,
+          "trunk": 30,
+          "pedestrian": 29,
+          "cycleway": 5,
+          "busway": 6
+        },
+        "road_class_count": 20,
+        "complex_footprints": 526,
+        "multipolygons": 61,
+        "holes": 137,
+        "vertex_count": {
+          "min": 3,
+          "median": 4,
+          "max": 85
+        },
+        "explicit_width_roads": 11
+      },
+      "score": 16
+    },
+    "east_barki_dha": {
+      "bounds": {
+        "west": 74.38,
+        "south": 31.45,
+        "east": 74.46,
+        "north": 31.53
+      },
+      "statistics": {
+        "buildings": 14342,
+        "roads": 7769,
+        "road_length_km": 1506.601,
+        "height_sources": {
+          "fallback": 4542,
+          "explicit": 12,
+          "levels": 9788
+        },
+        "building_classes": {
+          "house": 10794,
+          "other": 30,
+          "university": 6,
+          "unknown": 3123,
+          "residential": 95,
+          "commercial": 155,
+          "hospital": 14,
+          "apartments": 67,
+          "warehouse": 2,
+          "industrial": 3,
+          "college": 8,
+          "school": 43,
+          "office": 2
+        },
+        "building_class_count": 13,
+        "road_classes": {
+          "service": 683,
+          "footway": 400,
+          "primary_link": 28,
+          "residential": 5296,
+          "track": 5,
+          "tertiary": 289,
+          "living_street": 321,
+          "secondary_link": 117,
+          "secondary": 253,
+          "unclassified": 152,
+          "tertiary_link": 54,
+          "primary": 42,
+          "motorway_link": 34,
+          "construction": 42,
+          "motorway": 19,
+          "path": 22,
+          "steps": 4,
+          "crossing": 1,
+          "corridor": 6,
+          "services": 1
+        },
+        "road_class_count": 20,
+        "complex_footprints": 451,
+        "multipolygons": 7,
+        "holes": 2,
+        "vertex_count": {
+          "min": 3,
+          "median": 4,
+          "max": 81
+        },
+        "explicit_width_roads": 3
+      },
+      "score": 11
+    },
+    "south_kahna": {
+      "bounds": {
+        "west": 74.3,
+        "south": 31.34,
+        "east": 74.38,
+        "north": 31.42
+      },
+      "statistics": {
+        "buildings": 73,
+        "roads": 4824,
+        "road_length_km": 1034.889,
+        "height_sources": {
+          "fallback": 69,
+          "levels": 4
+        },
+        "building_classes": {
+          "industrial": 5,
+          "unknown": 62,
+          "school": 3,
+          "other": 3
+        },
+        "building_class_count": 4,
+        "road_classes": {
+          "residential": 3839,
+          "footway": 42,
+          "steps": 13,
+          "service": 347,
+          "trunk": 17,
+          "primary": 17,
+          "tertiary": 72,
+          "secondary": 16,
+          "unclassified": 262,
+          "motorway_link": 27,
+          "tertiary_link": 18,
+          "motorway": 23,
+          "track": 4,
+          "trunk_link": 24,
+          "construction": 50,
+          "primary_link": 18,
+          "busway": 2,
+          "living_street": 27,
+          "secondary_link": 5,
+          "path": 1
+        },
+        "road_class_count": 20,
+        "complex_footprints": 14,
+        "multipolygons": 0,
+        "holes": 0,
+        "vertex_count": {
+          "min": 4,
+          "median": 4,
+          "max": 18
+        },
+        "explicit_width_roads": 0
+      },
+      "score": 2
+    },
+    "north_shahdara": {
+      "bounds": {
+        "west": 74.25,
+        "south": 31.55,
+        "east": 74.33,
+        "north": 31.63
+      },
+      "statistics": {
+        "buildings": 1745,
+        "roads": 11797,
+        "road_length_km": 1409.312,
+        "height_sources": {
+          "fallback": 1682,
+          "explicit": 43,
+          "levels": 20
+        },
+        "building_classes": {
+          "unknown": 1542,
+          "other": 47,
+          "university": 81,
+          "hospital": 13,
+          "commercial": 7,
+          "school": 23,
+          "residential": 2,
+          "apartments": 5,
+          "retail": 5,
+          "house": 4,
+          "college": 2,
+          "industrial": 14
+        },
+        "building_class_count": 12,
+        "road_classes": {
+          "service": 3405,
+          "living_street": 2961,
+          "footway": 696,
+          "residential": 3544,
+          "trunk_link": 5,
+          "pedestrian": 105,
+          "motorway_link": 26,
+          "secondary_link": 26,
+          "secondary": 189,
+          "motorway": 23,
+          "tertiary": 358,
+          "construction": 10,
+          "trunk": 16,
+          "primary": 145,
+          "steps": 72,
+          "unclassified": 95,
+          "track": 10,
+          "primary_link": 50,
+          "busway": 17,
+          "tertiary_link": 10,
+          "path": 27,
+          "cycleway": 6,
+          "corridor": 1
+        },
+        "road_class_count": 23,
+        "complex_footprints": 503,
+        "multipolygons": 50,
+        "holes": 49,
+        "vertex_count": {
+          "min": 3,
+          "median": 5,
+          "max": 328
+        },
+        "explicit_width_roads": 96
+      },
+      "score": 13
+    },
+    "west_multan": {
+      "bounds": {
+        "west": 74.18,
+        "south": 31.4,
+        "east": 74.26,
+        "north": 31.48
+      },
+      "statistics": {
+        "buildings": 259,
+        "roads": 6261,
+        "road_length_km": 1393.394,
+        "height_sources": {
+          "fallback": 195,
+          "levels": 10,
+          "explicit": 54
+        },
+        "building_classes": {
+          "unknown": 196,
+          "commercial": 7,
+          "other": 10,
+          "house": 3,
+          "school": 3,
+          "hospital": 1,
+          "industrial": 31,
+          "residential": 8
+        },
+        "building_class_count": 8,
+        "road_classes": {
+          "secondary_link": 37,
+          "residential": 4764,
+          "tertiary": 238,
+          "primary_link": 39,
+          "tertiary_link": 44,
+          "unclassified": 275,
+          "service": 561,
+          "footway": 48,
+          "primary": 43,
+          "secondary": 74,
+          "trunk_link": 17,
+          "living_street": 12,
+          "trunk": 18,
+          "track": 14,
+          "construction": 35,
+          "motorway_link": 12,
+          "steps": 18,
+          "motorway": 6,
+          "path": 3,
+          "bridleway": 1,
+          "pedestrian": 2
+        },
+        "road_class_count": 21,
+        "complex_footprints": 73,
+        "multipolygons": 0,
+        "holes": 0,
+        "vertex_count": {
+          "min": 3,
+          "median": 4,
+          "max": 42
+        },
+        "explicit_width_roads": 4
+      },
+      "score": 7
+    },
+    "old_city_east": {
+      "bounds": {
+        "west": 74.31,
+        "south": 31.54,
+        "east": 74.39,
+        "north": 31.62
+      },
+      "statistics": {
+        "buildings": 2679,
+        "roads": 15541,
+        "road_length_km": 1842.191,
+        "height_sources": {
+          "fallback": 2635,
+          "explicit": 22,
+          "levels": 22
+        },
+        "building_classes": {
+          "unknown": 2391,
+          "other": 72,
+          "college": 39,
+          "hospital": 19,
+          "commercial": 10,
+          "school": 16,
+          "house": 97,
+          "retail": 5,
+          "office": 2,
+          "industrial": 10,
+          "university": 18
+        },
+        "building_class_count": 11,
+        "road_classes": {
+          "service": 4349,
+          "living_street": 5338,
+          "footway": 867,
+          "tertiary": 329,
+          "residential": 3629,
+          "trunk": 52,
+          "pedestrian": 90,
+          "primary": 141,
+          "secondary": 282,
+          "secondary_link": 59,
+          "construction": 15,
+          "steps": 93,
+          "unclassified": 148,
+          "primary_link": 77,
+          "track": 9,
+          "trunk_link": 27,
+          "motorway": 4,
+          "tertiary_link": 7,
+          "path": 14,
+          "cycleway": 3,
+          "corridor": 1,
+          "busway": 1,
+          "motorway_link": 6
+        },
+        "road_class_count": 23,
+        "complex_footprints": 798,
+        "multipolygons": 83,
+        "holes": 95,
+        "vertex_count": {
+          "min": 3,
+          "median": 5,
+          "max": 328
+        },
+        "explicit_width_roads": 39
+      },
+      "score": 16
+    }
+  }
+}
