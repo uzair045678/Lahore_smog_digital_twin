@@ -7,6 +7,7 @@ pilot = json.loads((ROOT / "city-data/pilot/lahore_pilot.json").read_text(encodi
 stats = json.loads((ROOT / "web/public/low-pilot/low_pilot.stats.json").read_text(encoding="utf-8"))
 features = json.loads((ROOT / "web/public/low-pilot/low_pilot.features.json").read_text(encoding="utf-8"))
 coverage = json.loads((ROOT / "web/public/low-pilot/low_pilot.coverage.json").read_text(encoding="utf-8"))
+viewer_source = (ROOT / "web/src/lowPilot.ts").read_text(encoding="utf-8")
 
 
 def test_low_asset_and_counts():
@@ -45,3 +46,10 @@ def test_low_rendering_configuration_and_bounds():
     assert set(stats["roadHierarchy"]) == {"major", "secondary", "local", "minor"}
     assert sum(item["records"] for item in stats["roadHierarchy"].values()) == 9957
     assert stats["meshes"] == stats["materials"] == 9
+
+
+def test_benchmark_modes_do_not_hide_gltf_root():
+    assert 'if (object === model) return;' in viewer_source
+    assert 'mode === "roads"' in viewer_source
+    assert 'mode === "buildings"' in viewer_source
+    assert 'FOREGROUND CONDITION LOST' in viewer_source

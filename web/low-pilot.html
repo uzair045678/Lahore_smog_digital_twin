@@ -11,6 +11,9 @@
       #hud { top: 12px; left: 12px; }
       #legend { top: 12px; right: 12px; white-space: normal; }
       #controls { position: fixed; bottom: 12px; left: 12px; display: flex; gap: 6px; flex-wrap: wrap; max-width: 420px; }
+      #benchmark { position: fixed; bottom: 12px; right: 12px; width: min(460px, calc(100vw - 24px)); background: #101a24e6; border: 1px solid #344757; border-radius: 6px; padding: 10px; }
+      #benchmark select, #benchmark button { margin: 2px; }
+      #benchmark-output { max-height: 150px; overflow: auto; margin: 6px 0 0; white-space: pre-wrap; color: #cbd7e1; }
       button { background: #1b2a38; border: 1px solid #587083; color: #e7edf3; border-radius: 4px; padding: 6px 9px; cursor: pointer; }
       button:hover { background: #294052; }
       .swatch { display: inline-block; width: 10px; height: 10px; margin-right: 5px; border-radius: 2px; }
@@ -21,6 +24,7 @@
     <div id="hud">Loading LOW pilot…</div>
     <div id="legend"><strong>LOW development viewer</strong><br><span class="swatch" style="background:#788696"></span>Residential<br><span class="swatch" style="background:#8f8065"></span>Commercial<br><span class="swatch" style="background:#786f8e"></span>Industrial<br><span class="swatch" style="background:#6d8991"></span>Institutional<br><span class="swatch" style="background:#69737e"></span>Unknown<br><br>Grid: green dense · amber sparse · red zero</div>
     <div id="controls"><button data-camera="overview">Overview (1)</button><button data-camera="oblique">Oblique (2)</button><button data-camera="top">Top (3)</button><button data-camera="close">Close (4)</button><button id="grid-toggle">Hide coverage grid</button></div>
+    <section id="benchmark" aria-label="Foreground performance benchmark"><strong>Foreground benchmark</strong><br><select id="benchmark-mode" aria-label="Benchmark mode"><option value="empty">EMPTY</option><option value="roads">ROADS</option><option value="buildings">BUILDINGS</option><option value="full" selected>FULL LOW</option></select><select id="benchmark-camera" aria-label="Benchmark camera"><option value="overview">OVERVIEW</option><option value="oblique">OBLIQUE</option><option value="close">CLOSE</option></select><select id="benchmark-dpr" aria-label="Benchmark pixel ratio"><option value="1">DPR 1.0</option><option value="native">Native DPR</option></select><button id="run-benchmark">RUN BENCHMARK</button><button id="copy-benchmark">COPY BENCHMARK RESULTS</button><pre id="benchmark-output">Keep this tab visible, focused, and unobscured before running.</pre></section>
     <script type="module" src="/src/lowPilot.ts"></script>
   </body>
 </html>
