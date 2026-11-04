@@ -129,7 +129,7 @@ for (const record of pilot.buildings) {
 }
 
 const scene = new THREE.Scene();
-for (const [category, geometries] of batches) { const merged = mergeGeometries(geometries, false); merged.computeVertexNormals(); scene.add(new THREE.Mesh(merged, new THREE.MeshStandardMaterial({ color: palette[category], roughness: 0.9, metalness: 0 }))); for (const geometry of geometries) if (geometry !== merged) geometry.dispose(); }
+for (const [category, geometries] of batches) { const merged = mergeGeometries(geometries, false); merged.computeVertexNormals(); const mesh = new THREE.Mesh(merged, new THREE.MeshStandardMaterial({ color: palette[category], roughness: 0.9, metalness: 0 })); mesh.name = `building-${category}`; scene.add(mesh); for (const geometry of geometries) if (geometry !== merged) geometry.dispose(); }
 const roadStyles = { major: { color: 0xb9c6d1, opacity: 0.95 }, secondary: { color: 0x8194a5, opacity: 0.8 }, local: { color: 0x566779, opacity: 0.55 }, minor: { color: 0x354250, opacity: 0.3 } };
 const roadRank = (highway) => ["motorway", "trunk", "primary"].includes(highway) ? "major" : ["secondary", "tertiary"].includes(highway) ? "secondary" : ["residential", "living_street"].includes(highway) ? "local" : "minor";
 const roadGroups = new Map(Object.keys(roadStyles).map((rank) => [rank, []]));
