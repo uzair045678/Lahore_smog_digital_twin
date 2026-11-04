@@ -1,5 +1,5 @@
 {
-  "schema_version": "low-pilot-stats-v1",
+  "schema_version": "low-pilot-stats-v2",
   "input": "F:\\_PROJECTS\\Lahore Smog Twin\\city-data\\pilot\\lahore_pilot.json",
   "config": {
     "tolerance_m": 0.5,
@@ -7,6 +7,12 @@
     "max_centroid_displacement_m": 0.5,
     "preserve_holes": true
   },
+  "coordinate_bounds": [
+    -5623.161,
+    -7814.525,
+    2028.377,
+    1098.152
+  ],
   "geometry": {
     "buildingsGenerated": 4475,
     "buildingsFailed": 0,
@@ -24,6 +30,32 @@
     "roadOriginalVertices": 53142,
     "roadSimplifiedVertices": 53142,
     "roadSegments": 43159
+  },
+  "roadHierarchy": {
+    "major": {
+      "records": 120,
+      "segments": 1240,
+      "color": 12175057,
+      "opacity": 0.95
+    },
+    "secondary": {
+      "records": 558,
+      "segments": 6528,
+      "color": 8492197,
+      "opacity": 0.8
+    },
+    "local": {
+      "records": 7408,
+      "segments": 26219,
+      "color": 5662585,
+      "opacity": 0.55
+    },
+    "minor": {
+      "records": 1871,
+      "segments": 9172,
+      "color": 3490384,
+      "opacity": 0.3
+    }
   },
   "toleranceMeasurements": [
     {
@@ -85,9 +117,9 @@
       "buildingCount": 5
     }
   ],
-  "materials": 6,
-  "meshes": 6,
-  "estimatedDrawCalls": 6,
-  "assetBytes": 8415496,
+  "materials": 9,
+  "meshes": 9,
+  "estimatedDrawCalls": 9,
+  "assetBytes": 8417196,
   "buildingFailureIds": []
 }

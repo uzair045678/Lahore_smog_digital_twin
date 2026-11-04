@@ -1,0 +1,5120 @@
+{
+  "schema_version": "low-pilot-coverage-v1",
+  "grid_size_m": 500.0,
+  "bounds_local_m": [
+    -5623.161,
+    -7814.525,
+    2028.377,
+    1098.152
+  ],
+  "cell_count": 328,
+  "high_road_threshold_m": 6905.298999999999,
+  "cells": [
+    {
+      "grid": [
+        -1,
+        -2
+      ],
+      "road_length_m": 2154.696,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.618784,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        -1
+      ],
+      "road_length_m": 2471.024,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 9.884096,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        0
+      ],
+      "road_length_m": 1503.902,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 6.015608,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        1
+      ],
+      "road_length_m": 904.413,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 3.617652,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        2
+      ],
+      "road_length_m": 785.909,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 3.143636,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        3
+      ],
+      "road_length_m": 211.885,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 0.84754,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        4
+      ],
+      "road_length_m": 529.144,
+      "building_count": 0,
+      "road_count": 3,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 2.1165760000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        5
+      ],
+      "road_length_m": 654.848,
+      "building_count": 0,
+      "road_count": 5,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 2.619392,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        6
+      ],
+      "road_length_m": 385.681,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 1.542724,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        7
+      ],
+      "road_length_m": 454.134,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 1.8165360000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        8
+      ],
+      "road_length_m": 1971.2720000000002,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 7.8850880000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        9
+      ],
+      "road_length_m": 179.723,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 0.7188920000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        10
+      ],
+      "road_length_m": 598.736,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 2.3949439999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        11
+      ],
+      "road_length_m": 695.728,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 2.7829119999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        12
+      ],
+      "road_length_m": 362.985,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 1.45194,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        13
+      ],
+      "road_length_m": 1313.92,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 5.25568,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        14
+      ],
+      "road_length_m": 4155.432,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 16.621727999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        -1,
+        16
+      ],
+      "road_length_m": 2150.438,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.601752000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        -1
+      ],
+      "road_length_m": 944.915,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 3.77966,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "road_length_m": 6831.712000000001,
+      "building_count": 0,
+      "road_count": 25,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 27.326848000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "road_length_m": 5965.066999999999,
+      "building_count": 0,
+      "road_count": 41,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 23.860267999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        2
+      ],
+      "road_length_m": 7803.903000000001,
+      "building_count": 1,
+      "road_count": 31,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 31.215612000000004,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5623.161,
+        -6814.525,
+        -5123.161,
+        -6314.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1558346215"
+      ]
+    },
+    {
+      "grid": [
+        0,
+        3
+      ],
+      "road_length_m": 8633.488000000003,
+      "building_count": 0,
+      "road_count": 33,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 34.53395200000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5623.161,
+        -6314.525,
+        -5123.161,
+        -5814.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        4
+      ],
+      "road_length_m": 8759.559,
+      "building_count": 2,
+      "road_count": 46,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 35.038236,
+      "road_density_class": "high",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        5
+      ],
+      "road_length_m": 11486.734999999999,
+      "building_count": 1,
+      "road_count": 30,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 45.94694,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5623.161,
+        -5314.525,
+        -5123.161,
+        -4814.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_333790345"
+      ]
+    },
+    {
+      "grid": [
+        0,
+        6
+      ],
+      "road_length_m": 6541.494999999999,
+      "building_count": 3,
+      "road_count": 34,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 26.165979999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        7
+      ],
+      "road_length_m": 6441.298999999999,
+      "building_count": 6,
+      "road_count": 42,
+      "building_density_per_km2": 24.0,
+      "road_density_km_per_km2": 25.765195999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 6,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        8
+      ],
+      "road_length_m": 2279.0170000000003,
+      "building_count": 11,
+      "road_count": 13,
+      "building_density_per_km2": 44.0,
+      "road_density_km_per_km2": 9.116068,
+      "road_density_class": "other",
+      "rendered_building_count": 11,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        9
+      ],
+      "road_length_m": 5189.588000000002,
+      "building_count": 43,
+      "road_count": 22,
+      "building_density_per_km2": 172.0,
+      "road_density_km_per_km2": 20.758352000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 43,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        10
+      ],
+      "road_length_m": 4745.251000000001,
+      "building_count": 20,
+      "road_count": 29,
+      "building_density_per_km2": 80.0,
+      "road_density_km_per_km2": 18.981004000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 20,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        11
+      ],
+      "road_length_m": 3071.012,
+      "building_count": 18,
+      "road_count": 16,
+      "building_density_per_km2": 72.0,
+      "road_density_km_per_km2": 12.284048,
+      "road_density_class": "other",
+      "rendered_building_count": 18,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        12
+      ],
+      "road_length_m": 6124.056000000001,
+      "building_count": 4,
+      "road_count": 31,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 24.496224000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        13
+      ],
+      "road_length_m": 4900.599999999999,
+      "building_count": 5,
+      "road_count": 22,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 19.6024,
+      "road_density_class": "other",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        14
+      ],
+      "road_length_m": 6504.871000000001,
+      "building_count": 0,
+      "road_count": 39,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 26.019484000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        15
+      ],
+      "road_length_m": 8516.287,
+      "building_count": 0,
+      "road_count": 57,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 34.065148,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5623.161,
+        -314.52499999999964,
+        -5123.161,
+        185.47500000000036
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        16
+      ],
+      "road_length_m": 8876.881000000003,
+      "building_count": 0,
+      "road_count": 69,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 35.50752400000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5623.161,
+        185.47500000000036,
+        -5123.161,
+        685.4750000000004
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        0,
+        17
+      ],
+      "road_length_m": 5482.242999999999,
+      "building_count": 0,
+      "road_count": 43,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.928971999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "road_length_m": 3923.0159999999996,
+      "building_count": 0,
+      "road_count": 28,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 15.692063999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "road_length_m": 7849.949000000001,
+      "building_count": 0,
+      "road_count": 42,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 31.399796000000006,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -7314.525,
+        -4623.161,
+        -6814.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        2
+      ],
+      "road_length_m": 10519.344,
+      "building_count": 0,
+      "road_count": 54,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 42.077375999999994,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -6814.525,
+        -4623.161,
+        -6314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        3
+      ],
+      "road_length_m": 5170.719,
+      "building_count": 2,
+      "road_count": 36,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 20.682876,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        4
+      ],
+      "road_length_m": 7940.664,
+      "building_count": 14,
+      "road_count": 38,
+      "building_density_per_km2": 56.0,
+      "road_density_km_per_km2": 31.762656,
+      "road_density_class": "high",
+      "rendered_building_count": 14,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        5
+      ],
+      "road_length_m": 11658.564,
+      "building_count": 3,
+      "road_count": 41,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 46.634256,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        6
+      ],
+      "road_length_m": 6232.518999999999,
+      "building_count": 0,
+      "road_count": 36,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 24.930075999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        7
+      ],
+      "road_length_m": 7478.8290000000015,
+      "building_count": 1,
+      "road_count": 31,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 29.915316000000008,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -4314.525,
+        -4623.161,
+        -3814.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1045971056"
+      ]
+    },
+    {
+      "grid": [
+        1,
+        8
+      ],
+      "road_length_m": 9793.597,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 39.174388,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -3814.5249999999996,
+        -4623.161,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        9
+      ],
+      "road_length_m": 209.364,
+      "building_count": 4,
+      "road_count": 4,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 0.837456,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        10
+      ],
+      "road_length_m": 4824.540999999999,
+      "building_count": 10,
+      "road_count": 24,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 19.298163999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        11
+      ],
+      "road_length_m": 3752.7100000000005,
+      "building_count": 22,
+      "road_count": 34,
+      "building_density_per_km2": 88.0,
+      "road_density_km_per_km2": 15.010840000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 22,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        12
+      ],
+      "road_length_m": 6905.702,
+      "building_count": 16,
+      "road_count": 47,
+      "building_density_per_km2": 64.0,
+      "road_density_km_per_km2": 27.622808,
+      "road_density_class": "high",
+      "rendered_building_count": 16,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        13
+      ],
+      "road_length_m": 3930.146999999999,
+      "building_count": 55,
+      "road_count": 38,
+      "building_density_per_km2": 220.0,
+      "road_density_km_per_km2": 15.720587999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 55,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        14
+      ],
+      "road_length_m": 5653.726000000001,
+      "building_count": 0,
+      "road_count": 23,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 22.614904000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        15
+      ],
+      "road_length_m": 7060.693999999999,
+      "building_count": 1,
+      "road_count": 67,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 28.242775999999996,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -314.52499999999964,
+        -4623.161,
+        185.47500000000036
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1487800273"
+      ]
+    },
+    {
+      "grid": [
+        1,
+        16
+      ],
+      "road_length_m": 8975.470999999998,
+      "building_count": 0,
+      "road_count": 93,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 35.90188399999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        185.47500000000036,
+        -4623.161,
+        685.4750000000004
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        17
+      ],
+      "road_length_m": 8894.912999999999,
+      "building_count": 0,
+      "road_count": 86,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 35.579651999999996,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        685.4750000000004,
+        -4623.161,
+        1185.4750000000004
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        -1
+      ],
+      "road_length_m": 6487.613000000001,
+      "building_count": 0,
+      "road_count": 5,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 25.950452000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        0
+      ],
+      "road_length_m": 6757.425,
+      "building_count": 0,
+      "road_count": 40,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 27.029700000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        1
+      ],
+      "road_length_m": 7971.418000000001,
+      "building_count": 1,
+      "road_count": 38,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 31.885672000000003,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -4623.161,
+        -7314.525,
+        -4123.161,
+        -6814.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1558346212"
+      ]
+    },
+    {
+      "grid": [
+        2,
+        2
+      ],
+      "road_length_m": 7545.862999999998,
+      "building_count": 1,
+      "road_count": 48,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 30.183451999999992,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -4623.161,
+        -6814.525,
+        -4123.161,
+        -6314.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_360016537"
+      ]
+    },
+    {
+      "grid": [
+        2,
+        3
+      ],
+      "road_length_m": 5411.178000000002,
+      "building_count": 27,
+      "road_count": 33,
+      "building_density_per_km2": 108.0,
+      "road_density_km_per_km2": 21.644712000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 27,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        4
+      ],
+      "road_length_m": 7011.5740000000005,
+      "building_count": 110,
+      "road_count": 42,
+      "building_density_per_km2": 440.0,
+      "road_density_km_per_km2": 28.046296,
+      "road_density_class": "high",
+      "rendered_building_count": 110,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        5
+      ],
+      "road_length_m": 5981.114,
+      "building_count": 42,
+      "road_count": 27,
+      "building_density_per_km2": 168.0,
+      "road_density_km_per_km2": 23.924456,
+      "road_density_class": "other",
+      "rendered_building_count": 42,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        6
+      ],
+      "road_length_m": 6584.768,
+      "building_count": 1,
+      "road_count": 30,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 26.339072,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        7
+      ],
+      "road_length_m": 4794.143,
+      "building_count": 1,
+      "road_count": 13,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 19.176572,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        8
+      ],
+      "road_length_m": 2583.412,
+      "building_count": 2,
+      "road_count": 13,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 10.333647999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        9
+      ],
+      "road_length_m": 6115.276000000001,
+      "building_count": 2,
+      "road_count": 38,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 24.461104000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        10
+      ],
+      "road_length_m": 305.874,
+      "building_count": 3,
+      "road_count": 7,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 1.2234960000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        11
+      ],
+      "road_length_m": 4591.373,
+      "building_count": 29,
+      "road_count": 17,
+      "building_density_per_km2": 116.0,
+      "road_density_km_per_km2": 18.365492,
+      "road_density_class": "other",
+      "rendered_building_count": 29,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        12
+      ],
+      "road_length_m": 6269.436999999999,
+      "building_count": 2,
+      "road_count": 35,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 25.077747999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        13
+      ],
+      "road_length_m": 5697.734,
+      "building_count": 14,
+      "road_count": 22,
+      "building_density_per_km2": 56.0,
+      "road_density_km_per_km2": 22.790936000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 14,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        14
+      ],
+      "road_length_m": 6574.702,
+      "building_count": 1,
+      "road_count": 17,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 26.298808,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        15
+      ],
+      "road_length_m": 6223.697000000001,
+      "building_count": 0,
+      "road_count": 40,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 24.894788000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        16
+      ],
+      "road_length_m": 7346.813000000001,
+      "building_count": 2,
+      "road_count": 84,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 29.387252000000004,
+      "road_density_class": "high",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        2,
+        17
+      ],
+      "road_length_m": 7075.596999999998,
+      "building_count": 12,
+      "road_count": 77,
+      "building_density_per_km2": 48.0,
+      "road_density_km_per_km2": 28.302387999999993,
+      "road_density_class": "high",
+      "rendered_building_count": 12,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        -1
+      ],
+      "road_length_m": 3587.692,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 14.350768,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        0
+      ],
+      "road_length_m": 9007.83,
+      "building_count": 0,
+      "road_count": 53,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 36.03132,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -4123.161,
+        -7814.525,
+        -3623.161,
+        -7314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        1
+      ],
+      "road_length_m": 5348.908999999999,
+      "building_count": 2,
+      "road_count": 25,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 21.395635999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        2
+      ],
+      "road_length_m": 1268.5739999999998,
+      "building_count": 0,
+      "road_count": 14,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 5.0742959999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        3
+      ],
+      "road_length_m": 5237.268000000001,
+      "building_count": 199,
+      "road_count": 38,
+      "building_density_per_km2": 796.0,
+      "road_density_km_per_km2": 20.949072000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 199,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        4
+      ],
+      "road_length_m": 9952.637999999997,
+      "building_count": 157,
+      "road_count": 71,
+      "building_density_per_km2": 628.0,
+      "road_density_km_per_km2": 39.81055199999999,
+      "road_density_class": "high",
+      "rendered_building_count": 157,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        5
+      ],
+      "road_length_m": 2010.248,
+      "building_count": 77,
+      "road_count": 9,
+      "building_density_per_km2": 308.0,
+      "road_density_km_per_km2": 8.040992000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 77,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        6
+      ],
+      "road_length_m": 2517.284,
+      "building_count": 1,
+      "road_count": 8,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 10.069136,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        7
+      ],
+      "road_length_m": 3849.692,
+      "building_count": 0,
+      "road_count": 11,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 15.398768,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        8
+      ],
+      "road_length_m": 3591.4300000000003,
+      "building_count": 5,
+      "road_count": 11,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 14.365720000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        9
+      ],
+      "road_length_m": 5602.324,
+      "building_count": 1,
+      "road_count": 22,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 22.409295999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        10
+      ],
+      "road_length_m": 6221.806999999999,
+      "building_count": 2,
+      "road_count": 23,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 24.887227999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        11
+      ],
+      "road_length_m": 7469.309999999999,
+      "building_count": 10,
+      "road_count": 42,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 29.877239999999993,
+      "road_density_class": "high",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        12
+      ],
+      "road_length_m": 6257.709000000001,
+      "building_count": 1,
+      "road_count": 23,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 25.030836000000004,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        13
+      ],
+      "road_length_m": 2818.463,
+      "building_count": 0,
+      "road_count": 13,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.273852000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        14
+      ],
+      "road_length_m": 4351.665,
+      "building_count": 0,
+      "road_count": 15,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 17.40666,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        15
+      ],
+      "road_length_m": 7025.345,
+      "building_count": 1,
+      "road_count": 40,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 28.101380000000002,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -4123.161,
+        -314.52499999999964,
+        -3623.161,
+        185.47500000000036
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1573542603"
+      ]
+    },
+    {
+      "grid": [
+        3,
+        16
+      ],
+      "road_length_m": 8525.358000000002,
+      "building_count": 0,
+      "road_count": 68,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 34.10143200000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -4123.161,
+        185.47500000000036,
+        -3623.161,
+        685.4750000000004
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        17
+      ],
+      "road_length_m": 6097.864,
+      "building_count": 0,
+      "road_count": 42,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 24.391455999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        3,
+        19
+      ],
+      "road_length_m": 5327.677,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.310707999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        -1
+      ],
+      "road_length_m": 793.0550000000001,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 3.1722200000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        0
+      ],
+      "road_length_m": 8296.869999999999,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 33.187479999999994,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -3623.161,
+        -7814.525,
+        -3123.161,
+        -7314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        1
+      ],
+      "road_length_m": 4535.365999999999,
+      "building_count": 0,
+      "road_count": 17,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 18.141463999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        2
+      ],
+      "road_length_m": 10059.5,
+      "building_count": 0,
+      "road_count": 28,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 40.238,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -3623.161,
+        -6814.525,
+        -3123.161,
+        -6314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        3
+      ],
+      "road_length_m": 5402.384999999997,
+      "building_count": 1,
+      "road_count": 46,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 21.609539999999985,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        4
+      ],
+      "road_length_m": 7430.458,
+      "building_count": 1,
+      "road_count": 77,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 29.721832,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -3623.161,
+        -5814.525,
+        -3123.161,
+        -5314.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_360002488"
+      ]
+    },
+    {
+      "grid": [
+        4,
+        5
+      ],
+      "road_length_m": 2961.116,
+      "building_count": 1,
+      "road_count": 8,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 11.844464,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        6
+      ],
+      "road_length_m": 5203.200999999998,
+      "building_count": 1,
+      "road_count": 15,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 20.812803999999993,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        7
+      ],
+      "road_length_m": 5340.738000000001,
+      "building_count": 1,
+      "road_count": 12,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 21.362952000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        8
+      ],
+      "road_length_m": 3498.508,
+      "building_count": 0,
+      "road_count": 16,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 13.994031999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        9
+      ],
+      "road_length_m": 3246.853,
+      "building_count": 0,
+      "road_count": 10,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 12.987412,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        10
+      ],
+      "road_length_m": 3397.009,
+      "building_count": 1,
+      "road_count": 21,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 13.588036,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        11
+      ],
+      "road_length_m": 5942.012000000001,
+      "building_count": 4,
+      "road_count": 47,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 23.768048000000004,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        12
+      ],
+      "road_length_m": 4258.272000000001,
+      "building_count": 0,
+      "road_count": 33,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 17.033088000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        13
+      ],
+      "road_length_m": 4413.349999999999,
+      "building_count": 1,
+      "road_count": 20,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 17.653399999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        14
+      ],
+      "road_length_m": 5021.648,
+      "building_count": 3,
+      "road_count": 20,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 20.086592,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        15
+      ],
+      "road_length_m": 6959.901000000001,
+      "building_count": 3,
+      "road_count": 48,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 27.839604,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        16
+      ],
+      "road_length_m": 7337.669999999997,
+      "building_count": 2,
+      "road_count": 47,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 29.35067999999999,
+      "road_density_class": "high",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        17
+      ],
+      "road_length_m": 2979.6839999999997,
+      "building_count": 1,
+      "road_count": 35,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 11.918735999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        4,
+        18
+      ],
+      "road_length_m": 3253.807,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 13.015227999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        -1
+      ],
+      "road_length_m": 1372.176,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 5.488703999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        0
+      ],
+      "road_length_m": 1088.027,
+      "building_count": 0,
+      "road_count": 5,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 4.352108,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        1
+      ],
+      "road_length_m": 3486.829,
+      "building_count": 0,
+      "road_count": 20,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 13.947316,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        2
+      ],
+      "road_length_m": 5486.471000000001,
+      "building_count": 0,
+      "road_count": 37,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.945884000000007,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        3
+      ],
+      "road_length_m": 5406.111000000002,
+      "building_count": 0,
+      "road_count": 28,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.624444000000008,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        4
+      ],
+      "road_length_m": 9379.487999999998,
+      "building_count": 0,
+      "road_count": 79,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 37.51795199999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -3123.161,
+        -5814.525,
+        -2623.161,
+        -5314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        5
+      ],
+      "road_length_m": 4469.617,
+      "building_count": 0,
+      "road_count": 13,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 17.878468,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        6
+      ],
+      "road_length_m": 2408.3190000000004,
+      "building_count": 1,
+      "road_count": 11,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 9.633276000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        7
+      ],
+      "road_length_m": 4453.638999999999,
+      "building_count": 1,
+      "road_count": 26,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 17.814555999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        8
+      ],
+      "road_length_m": 4138.438999999999,
+      "building_count": 1,
+      "road_count": 36,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 16.553755999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        9
+      ],
+      "road_length_m": 4092.782,
+      "building_count": 3,
+      "road_count": 9,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 16.371128000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        10
+      ],
+      "road_length_m": 5651.281999999999,
+      "building_count": 0,
+      "road_count": 19,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 22.605127999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        11
+      ],
+      "road_length_m": 7068.914999999999,
+      "building_count": 4,
+      "road_count": 30,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 28.275659999999995,
+      "road_density_class": "high",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        12
+      ],
+      "road_length_m": 5838.223000000001,
+      "building_count": 5,
+      "road_count": 29,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 23.352892000000004,
+      "road_density_class": "other",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        13
+      ],
+      "road_length_m": 5033.632,
+      "building_count": 17,
+      "road_count": 28,
+      "building_density_per_km2": 68.0,
+      "road_density_km_per_km2": 20.134528,
+      "road_density_class": "other",
+      "rendered_building_count": 17,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        14
+      ],
+      "road_length_m": 4068.496,
+      "building_count": 13,
+      "road_count": 20,
+      "building_density_per_km2": 52.0,
+      "road_density_km_per_km2": 16.273984,
+      "road_density_class": "other",
+      "rendered_building_count": 13,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        15
+      ],
+      "road_length_m": 9898.560000000001,
+      "building_count": 53,
+      "road_count": 48,
+      "building_density_per_km2": 212.0,
+      "road_density_km_per_km2": 39.594240000000006,
+      "road_density_class": "high",
+      "rendered_building_count": 53,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        16
+      ],
+      "road_length_m": 5892.814000000001,
+      "building_count": 4,
+      "road_count": 58,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 23.571256000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        17
+      ],
+      "road_length_m": 5225.931,
+      "building_count": 4,
+      "road_count": 38,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 20.903723999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        5,
+        18
+      ],
+      "road_length_m": 229.125,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 0.9165,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        -1
+      ],
+      "road_length_m": 1374.85,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 5.4994,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        1
+      ],
+      "road_length_m": 5983.332,
+      "building_count": 0,
+      "road_count": 37,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 23.933328000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        2
+      ],
+      "road_length_m": 7601.7609999999995,
+      "building_count": 0,
+      "road_count": 57,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 30.407044,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -2623.161,
+        -6814.525,
+        -2123.161,
+        -6314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        3
+      ],
+      "road_length_m": 5499.688000000001,
+      "building_count": 0,
+      "road_count": 42,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.998752000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        4
+      ],
+      "road_length_m": 8481.727000000003,
+      "building_count": 0,
+      "road_count": 43,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 33.92690800000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -2623.161,
+        -5814.525,
+        -2123.161,
+        -5314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        5
+      ],
+      "road_length_m": 7125.216,
+      "building_count": 3,
+      "road_count": 42,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 28.500864,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        6
+      ],
+      "road_length_m": 2988.4280000000003,
+      "building_count": 0,
+      "road_count": 10,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.953712000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        7
+      ],
+      "road_length_m": 3633.946999999999,
+      "building_count": 1,
+      "road_count": 13,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 14.535787999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        8
+      ],
+      "road_length_m": 6105.084,
+      "building_count": 0,
+      "road_count": 9,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 24.420336,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        9
+      ],
+      "road_length_m": 3389.6829999999995,
+      "building_count": 1,
+      "road_count": 19,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 13.558731999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        10
+      ],
+      "road_length_m": 2772.924,
+      "building_count": 0,
+      "road_count": 21,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.091696,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        11
+      ],
+      "road_length_m": 4773.618000000001,
+      "building_count": 8,
+      "road_count": 29,
+      "building_density_per_km2": 32.0,
+      "road_density_km_per_km2": 19.094472000000007,
+      "road_density_class": "other",
+      "rendered_building_count": 8,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        12
+      ],
+      "road_length_m": 8359.047999999999,
+      "building_count": 10,
+      "road_count": 60,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 33.436192,
+      "road_density_class": "high",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        13
+      ],
+      "road_length_m": 5582.742,
+      "building_count": 15,
+      "road_count": 36,
+      "building_density_per_km2": 60.0,
+      "road_density_km_per_km2": 22.330968000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 15,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        14
+      ],
+      "road_length_m": 4896.174,
+      "building_count": 27,
+      "road_count": 44,
+      "building_density_per_km2": 108.0,
+      "road_density_km_per_km2": 19.584696,
+      "road_density_class": "other",
+      "rendered_building_count": 27,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        15
+      ],
+      "road_length_m": 2574.923,
+      "building_count": 76,
+      "road_count": 29,
+      "building_density_per_km2": 304.0,
+      "road_density_km_per_km2": 10.299691999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 76,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        16
+      ],
+      "road_length_m": 6164.774999999999,
+      "building_count": 43,
+      "road_count": 37,
+      "building_density_per_km2": 172.0,
+      "road_density_km_per_km2": 24.659099999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 43,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        6,
+        17
+      ],
+      "road_length_m": 3679.0549999999994,
+      "building_count": 1,
+      "road_count": 21,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 14.716219999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        0
+      ],
+      "road_length_m": 5545.646999999998,
+      "building_count": 0,
+      "road_count": 28,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 22.182587999999992,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        1
+      ],
+      "road_length_m": 6710.816000000001,
+      "building_count": 1,
+      "road_count": 34,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 26.843264,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        2
+      ],
+      "road_length_m": 9272.463,
+      "building_count": 3,
+      "road_count": 55,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 37.089852,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        3
+      ],
+      "road_length_m": 6530.414000000001,
+      "building_count": 1,
+      "road_count": 45,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 26.121656,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        4
+      ],
+      "road_length_m": 5992.443,
+      "building_count": 4,
+      "road_count": 37,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 23.969772000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        5
+      ],
+      "road_length_m": 6928.434000000004,
+      "building_count": 1,
+      "road_count": 71,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 27.713736000000015,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -2123.161,
+        -5314.525,
+        -1623.161,
+        -4814.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_317476238"
+      ]
+    },
+    {
+      "grid": [
+        7,
+        6
+      ],
+      "road_length_m": 2319.3610000000003,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 9.277444000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        7
+      ],
+      "road_length_m": 2896.7999999999997,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.5872,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        8
+      ],
+      "road_length_m": 11879.344999999998,
+      "building_count": 1,
+      "road_count": 50,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 47.51737999999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -2123.161,
+        -3814.5249999999996,
+        -1623.161,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_363581269"
+      ]
+    },
+    {
+      "grid": [
+        7,
+        9
+      ],
+      "road_length_m": 6896.6759999999995,
+      "building_count": 2,
+      "road_count": 50,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 27.586703999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        10
+      ],
+      "road_length_m": 10897.634000000004,
+      "building_count": 73,
+      "road_count": 70,
+      "building_density_per_km2": 292.0,
+      "road_density_km_per_km2": 43.590536000000014,
+      "road_density_class": "high",
+      "rendered_building_count": 73,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        11
+      ],
+      "road_length_m": 5595.731999999999,
+      "building_count": 40,
+      "road_count": 26,
+      "building_density_per_km2": 160.0,
+      "road_density_km_per_km2": 22.382927999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 40,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        12
+      ],
+      "road_length_m": 4751.279,
+      "building_count": 3,
+      "road_count": 16,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 19.005116,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        13
+      ],
+      "road_length_m": 4055.537999999999,
+      "building_count": 3,
+      "road_count": 38,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 16.222151999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        14
+      ],
+      "road_length_m": 2608.107,
+      "building_count": 17,
+      "road_count": 18,
+      "building_density_per_km2": 68.0,
+      "road_density_km_per_km2": 10.432428,
+      "road_density_class": "other",
+      "rendered_building_count": 17,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        15
+      ],
+      "road_length_m": 4296.123,
+      "building_count": 82,
+      "road_count": 27,
+      "building_density_per_km2": 328.0,
+      "road_density_km_per_km2": 17.184492,
+      "road_density_class": "other",
+      "rendered_building_count": 82,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        16
+      ],
+      "road_length_m": 5510.841,
+      "building_count": 10,
+      "road_count": 25,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 22.043364,
+      "road_density_class": "other",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        7,
+        17
+      ],
+      "road_length_m": 5110.187,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 20.440748,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        -1
+      ],
+      "road_length_m": 2351.306,
+      "building_count": 0,
+      "road_count": 5,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 9.405224,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        0
+      ],
+      "road_length_m": 9431.459999999997,
+      "building_count": 0,
+      "road_count": 66,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 37.72583999999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -1623.161,
+        -7814.525,
+        -1123.161,
+        -7314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        1
+      ],
+      "road_length_m": 10405.425,
+      "building_count": 3,
+      "road_count": 117,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 41.6217,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        2
+      ],
+      "road_length_m": 11949.738999999998,
+      "building_count": 3,
+      "road_count": 136,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 47.79895599999999,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        3
+      ],
+      "road_length_m": 9777.579000000003,
+      "building_count": 0,
+      "road_count": 86,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 39.11031600000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -1623.161,
+        -6314.525,
+        -1123.161,
+        -5814.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        4
+      ],
+      "road_length_m": 5794.673999999999,
+      "building_count": 9,
+      "road_count": 41,
+      "building_density_per_km2": 36.0,
+      "road_density_km_per_km2": 23.178695999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 9,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        5
+      ],
+      "road_length_m": 8971.943000000001,
+      "building_count": 3,
+      "road_count": 62,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 35.887772000000005,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        6
+      ],
+      "road_length_m": 5887.652,
+      "building_count": 1,
+      "road_count": 38,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 23.550608,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        7
+      ],
+      "road_length_m": 3959.13,
+      "building_count": 0,
+      "road_count": 24,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 15.83652,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        8
+      ],
+      "road_length_m": 7788.254999999998,
+      "building_count": 1,
+      "road_count": 53,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 31.153019999999994,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -1623.161,
+        -3814.5249999999996,
+        -1123.161,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_363598878"
+      ]
+    },
+    {
+      "grid": [
+        8,
+        9
+      ],
+      "road_length_m": 8634.695000000002,
+      "building_count": 40,
+      "road_count": 50,
+      "building_density_per_km2": 160.0,
+      "road_density_km_per_km2": 34.53878,
+      "road_density_class": "high",
+      "rendered_building_count": 40,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        10
+      ],
+      "road_length_m": 10549.462,
+      "building_count": 5,
+      "road_count": 24,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 42.197848,
+      "road_density_class": "high",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        11
+      ],
+      "road_length_m": 2867.627,
+      "building_count": 0,
+      "road_count": 17,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.470508,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        12
+      ],
+      "road_length_m": 6953.456,
+      "building_count": 3,
+      "road_count": 19,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 27.813824,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        13
+      ],
+      "road_length_m": 4485.383000000001,
+      "building_count": 57,
+      "road_count": 22,
+      "building_density_per_km2": 228.0,
+      "road_density_km_per_km2": 17.941532000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 57,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        14
+      ],
+      "road_length_m": 4941.575,
+      "building_count": 75,
+      "road_count": 21,
+      "building_density_per_km2": 300.0,
+      "road_density_km_per_km2": 19.766299999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 75,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        15
+      ],
+      "road_length_m": 7379.810999999999,
+      "building_count": 19,
+      "road_count": 19,
+      "building_density_per_km2": 76.0,
+      "road_density_km_per_km2": 29.519243999999993,
+      "road_density_class": "high",
+      "rendered_building_count": 19,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        16
+      ],
+      "road_length_m": 7368.059999999999,
+      "building_count": 3,
+      "road_count": 28,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 29.472239999999996,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        17
+      ],
+      "road_length_m": 5838.702999999999,
+      "building_count": 0,
+      "road_count": 28,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 23.354811999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        18
+      ],
+      "road_length_m": 507.107,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 2.028428,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        -1
+      ],
+      "road_length_m": 721.4870000000001,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 2.8859480000000004,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        0
+      ],
+      "road_length_m": 11431.470000000001,
+      "building_count": 17,
+      "road_count": 122,
+      "building_density_per_km2": 68.0,
+      "road_density_km_per_km2": 45.725880000000004,
+      "road_density_class": "high",
+      "rendered_building_count": 17,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        1
+      ],
+      "road_length_m": 8318.294,
+      "building_count": 56,
+      "road_count": 100,
+      "building_density_per_km2": 224.0,
+      "road_density_km_per_km2": 33.273176,
+      "road_density_class": "high",
+      "rendered_building_count": 56,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        2
+      ],
+      "road_length_m": 11150.586999999994,
+      "building_count": 8,
+      "road_count": 65,
+      "building_density_per_km2": 32.0,
+      "road_density_km_per_km2": 44.60234799999998,
+      "road_density_class": "high",
+      "rendered_building_count": 8,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        3
+      ],
+      "road_length_m": 5352.100999999999,
+      "building_count": 1,
+      "road_count": 32,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 21.408403999999994,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        4
+      ],
+      "road_length_m": 2948.252,
+      "building_count": 2,
+      "road_count": 29,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 11.793008,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        5
+      ],
+      "road_length_m": 7840.287,
+      "building_count": 8,
+      "road_count": 58,
+      "building_density_per_km2": 32.0,
+      "road_density_km_per_km2": 31.361148,
+      "road_density_class": "high",
+      "rendered_building_count": 8,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        6
+      ],
+      "road_length_m": 1832.4770000000003,
+      "building_count": 3,
+      "road_count": 8,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 7.329908000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        7
+      ],
+      "road_length_m": 1789.098,
+      "building_count": 0,
+      "road_count": 8,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 7.156391999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        8
+      ],
+      "road_length_m": 6391.098000000001,
+      "building_count": 0,
+      "road_count": 41,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 25.564392000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        9
+      ],
+      "road_length_m": 5044.915999999999,
+      "building_count": 1,
+      "road_count": 20,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 20.179663999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        10
+      ],
+      "road_length_m": 8778.729,
+      "building_count": 0,
+      "road_count": 46,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 35.114916,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -1123.161,
+        -2814.5249999999996,
+        -623.1610000000001,
+        -2314.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        11
+      ],
+      "road_length_m": 9221.891999999998,
+      "building_count": 1,
+      "road_count": 45,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 36.887567999999995,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -1123.161,
+        -2314.5249999999996,
+        -623.1610000000001,
+        -1814.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1421862868"
+      ]
+    },
+    {
+      "grid": [
+        9,
+        12
+      ],
+      "road_length_m": 3637.51,
+      "building_count": 14,
+      "road_count": 19,
+      "building_density_per_km2": 56.0,
+      "road_density_km_per_km2": 14.550040000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 14,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        13
+      ],
+      "road_length_m": 4989.241,
+      "building_count": 108,
+      "road_count": 17,
+      "building_density_per_km2": 432.0,
+      "road_density_km_per_km2": 19.956964,
+      "road_density_class": "other",
+      "rendered_building_count": 108,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        14
+      ],
+      "road_length_m": 4316.856999999999,
+      "building_count": 129,
+      "road_count": 20,
+      "building_density_per_km2": 516.0,
+      "road_density_km_per_km2": 17.267427999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 129,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        15
+      ],
+      "road_length_m": 3000.81,
+      "building_count": 140,
+      "road_count": 15,
+      "building_density_per_km2": 560.0,
+      "road_density_km_per_km2": 12.00324,
+      "road_density_class": "other",
+      "rendered_building_count": 140,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        16
+      ],
+      "road_length_m": 6415.113000000001,
+      "building_count": 34,
+      "road_count": 42,
+      "building_density_per_km2": 136.0,
+      "road_density_km_per_km2": 25.660452000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 34,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        17
+      ],
+      "road_length_m": 3522.417,
+      "building_count": 4,
+      "road_count": 15,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 14.089668,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        9,
+        18
+      ],
+      "road_length_m": 1572.716,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 6.290864,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        -4
+      ],
+      "road_length_m": 8069.014,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 32.276056,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -623.1610000000001,
+        -9814.525,
+        -123.16100000000006,
+        -9314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        -1
+      ],
+      "road_length_m": 2400.3940000000002,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 9.601576000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        0
+      ],
+      "road_length_m": 7388.24,
+      "building_count": 2,
+      "road_count": 72,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 29.55296,
+      "road_density_class": "high",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        1
+      ],
+      "road_length_m": 8577.603999999998,
+      "building_count": 5,
+      "road_count": 68,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 34.31041599999999,
+      "road_density_class": "high",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        2
+      ],
+      "road_length_m": 6905.298999999999,
+      "building_count": 3,
+      "road_count": 51,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 27.621195999999998,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        3
+      ],
+      "road_length_m": 4186.226000000001,
+      "building_count": 2,
+      "road_count": 35,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 16.744904000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        4
+      ],
+      "road_length_m": 6666.597999999999,
+      "building_count": 2,
+      "road_count": 52,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 26.666391999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        5
+      ],
+      "road_length_m": 6621.719999999999,
+      "building_count": 2,
+      "road_count": 31,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 26.486879999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        6
+      ],
+      "road_length_m": 2827.6899999999996,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.310759999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        7
+      ],
+      "road_length_m": 2733.4870000000005,
+      "building_count": 0,
+      "road_count": 24,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 10.933948000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        8
+      ],
+      "road_length_m": 7077.0589999999975,
+      "building_count": 10,
+      "road_count": 26,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 28.30823599999999,
+      "road_density_class": "high",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        9
+      ],
+      "road_length_m": 6292.374999999999,
+      "building_count": 1,
+      "road_count": 39,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 25.169499999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        10
+      ],
+      "road_length_m": 8711.417,
+      "building_count": 0,
+      "road_count": 52,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 34.845667999999996,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -623.1610000000001,
+        -2814.5249999999996,
+        -123.16100000000006,
+        -2314.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        11
+      ],
+      "road_length_m": 5302.840999999999,
+      "building_count": 0,
+      "road_count": 36,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.211363999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        12
+      ],
+      "road_length_m": 4808.236,
+      "building_count": 27,
+      "road_count": 21,
+      "building_density_per_km2": 108.0,
+      "road_density_km_per_km2": 19.232944,
+      "road_density_class": "other",
+      "rendered_building_count": 27,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        13
+      ],
+      "road_length_m": 5394.795000000001,
+      "building_count": 4,
+      "road_count": 27,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 21.579180000000004,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        14
+      ],
+      "road_length_m": 4954.829999999999,
+      "building_count": 16,
+      "road_count": 29,
+      "building_density_per_km2": 64.0,
+      "road_density_km_per_km2": 19.819319999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 16,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        15
+      ],
+      "road_length_m": 4070.9590000000003,
+      "building_count": 10,
+      "road_count": 21,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 16.283836,
+      "road_density_class": "other",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        16
+      ],
+      "road_length_m": 4882.898,
+      "building_count": 13,
+      "road_count": 14,
+      "building_density_per_km2": 52.0,
+      "road_density_km_per_km2": 19.531592,
+      "road_density_class": "other",
+      "rendered_building_count": 13,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        10,
+        17
+      ],
+      "road_length_m": 2853.5120000000006,
+      "building_count": 0,
+      "road_count": 18,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.414048000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        -1
+      ],
+      "road_length_m": 935.043,
+      "building_count": 0,
+      "road_count": 2,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 3.740172,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        0
+      ],
+      "road_length_m": 6596.913999999999,
+      "building_count": 2,
+      "road_count": 53,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 26.387655999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        1
+      ],
+      "road_length_m": 6545.394999999999,
+      "building_count": 1,
+      "road_count": 59,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 26.181579999999993,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        2
+      ],
+      "road_length_m": 9335.241,
+      "building_count": 6,
+      "road_count": 59,
+      "building_density_per_km2": 24.0,
+      "road_density_km_per_km2": 37.340964,
+      "road_density_class": "high",
+      "rendered_building_count": 6,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        3
+      ],
+      "road_length_m": 5431.093,
+      "building_count": 0,
+      "road_count": 44,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.724372,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        4
+      ],
+      "road_length_m": 5865.486000000001,
+      "building_count": 1,
+      "road_count": 18,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 23.461944000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        5
+      ],
+      "road_length_m": 7245.015999999998,
+      "building_count": 0,
+      "road_count": 53,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 28.98006399999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -123.16100000000006,
+        -5314.525,
+        376.83899999999994,
+        -4814.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        6
+      ],
+      "road_length_m": 6903.37,
+      "building_count": 1,
+      "road_count": 19,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 27.61348,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        7
+      ],
+      "road_length_m": 9856.321999999996,
+      "building_count": 0,
+      "road_count": 21,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 39.42528799999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -123.16100000000006,
+        -4314.525,
+        376.83899999999994,
+        -3814.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        8
+      ],
+      "road_length_m": 5257.24,
+      "building_count": 40,
+      "road_count": 32,
+      "building_density_per_km2": 160.0,
+      "road_density_km_per_km2": 21.028959999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 40,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        9
+      ],
+      "road_length_m": 6565.689000000001,
+      "building_count": 1,
+      "road_count": 44,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 26.262756000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        10
+      ],
+      "road_length_m": 8827.418999999998,
+      "building_count": 1,
+      "road_count": 73,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 35.30967599999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -123.16100000000006,
+        -2814.5249999999996,
+        376.83899999999994,
+        -2314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1560098117"
+      ]
+    },
+    {
+      "grid": [
+        11,
+        11
+      ],
+      "road_length_m": 7419.231000000001,
+      "building_count": 79,
+      "road_count": 58,
+      "building_density_per_km2": 316.0,
+      "road_density_km_per_km2": 29.676924000000003,
+      "road_density_class": "high",
+      "rendered_building_count": 79,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        12
+      ],
+      "road_length_m": 6680.193,
+      "building_count": 7,
+      "road_count": 57,
+      "building_density_per_km2": 28.0,
+      "road_density_km_per_km2": 26.720772,
+      "road_density_class": "other",
+      "rendered_building_count": 7,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        13
+      ],
+      "road_length_m": 8620.834,
+      "building_count": 0,
+      "road_count": 54,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 34.483336,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -123.16100000000006,
+        -1314.5249999999996,
+        376.83899999999994,
+        -814.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        14
+      ],
+      "road_length_m": 5110.586,
+      "building_count": 1,
+      "road_count": 52,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 20.442344000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        15
+      ],
+      "road_length_m": 6889.307,
+      "building_count": 2,
+      "road_count": 47,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 27.557228,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        16
+      ],
+      "road_length_m": 7915.361999999998,
+      "building_count": 0,
+      "road_count": 93,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 31.661447999999993,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -123.16100000000006,
+        185.47500000000036,
+        376.83899999999994,
+        685.4750000000004
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        17
+      ],
+      "road_length_m": 6503.391,
+      "building_count": 0,
+      "road_count": 29,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 26.013564,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        -1
+      ],
+      "road_length_m": 877.548,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 3.510192,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        0
+      ],
+      "road_length_m": 11260.647,
+      "building_count": 1,
+      "road_count": 50,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 45.042588,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        376.83899999999994,
+        -7814.525,
+        876.8389999999999,
+        -7314.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_709230185"
+      ]
+    },
+    {
+      "grid": [
+        12,
+        1
+      ],
+      "road_length_m": 6799.48,
+      "building_count": 5,
+      "road_count": 50,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 27.19792,
+      "road_density_class": "other",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        2
+      ],
+      "road_length_m": 5095.345999999998,
+      "building_count": 3,
+      "road_count": 40,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 20.38138399999999,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        3
+      ],
+      "road_length_m": 4534.114000000001,
+      "building_count": 10,
+      "road_count": 27,
+      "building_density_per_km2": 40.0,
+      "road_density_km_per_km2": 18.136456000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 10,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        4
+      ],
+      "road_length_m": 5244.450000000002,
+      "building_count": 1,
+      "road_count": 23,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 20.977800000000006,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        5
+      ],
+      "road_length_m": 6380.028,
+      "building_count": 0,
+      "road_count": 38,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 25.520112,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        6
+      ],
+      "road_length_m": 5189.339,
+      "building_count": 0,
+      "road_count": 20,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 20.757356,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        7
+      ],
+      "road_length_m": 5484.566,
+      "building_count": 0,
+      "road_count": 40,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 21.938264,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        8
+      ],
+      "road_length_m": 10105.354000000001,
+      "building_count": 1,
+      "road_count": 79,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 40.42141600000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        376.83899999999994,
+        -3814.5249999999996,
+        876.8389999999999,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1560098109"
+      ]
+    },
+    {
+      "grid": [
+        12,
+        9
+      ],
+      "road_length_m": 9019.554999999995,
+      "building_count": 0,
+      "road_count": 109,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 36.07821999999998,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        376.83899999999994,
+        -3314.5249999999996,
+        876.8389999999999,
+        -2814.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        10
+      ],
+      "road_length_m": 7443.322999999999,
+      "building_count": 6,
+      "road_count": 44,
+      "building_density_per_km2": 24.0,
+      "road_density_km_per_km2": 29.773291999999998,
+      "road_density_class": "high",
+      "rendered_building_count": 6,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        11
+      ],
+      "road_length_m": 7915.973999999999,
+      "building_count": 102,
+      "road_count": 32,
+      "building_density_per_km2": 408.0,
+      "road_density_km_per_km2": 31.663895999999998,
+      "road_density_class": "high",
+      "rendered_building_count": 102,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        12
+      ],
+      "road_length_m": 2198.817,
+      "building_count": 0,
+      "road_count": 8,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.795268,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        13
+      ],
+      "road_length_m": 3541.038,
+      "building_count": 0,
+      "road_count": 6,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 14.164152,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        14
+      ],
+      "road_length_m": 1680.998,
+      "building_count": 0,
+      "road_count": 9,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 6.723992,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        15
+      ],
+      "road_length_m": 1759.993,
+      "building_count": 1,
+      "road_count": 8,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 7.039972,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        16
+      ],
+      "road_length_m": 6674.254999999999,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 26.69702,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        17
+      ],
+      "road_length_m": 3276.5320000000006,
+      "building_count": 0,
+      "road_count": 16,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 13.106128000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        -1
+      ],
+      "road_length_m": 152.407,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 0.6096280000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        0
+      ],
+      "road_length_m": 5531.456000000001,
+      "building_count": 0,
+      "road_count": 32,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 22.125824000000005,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        1
+      ],
+      "road_length_m": 5821.7559999999985,
+      "building_count": 4,
+      "road_count": 47,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 23.287023999999995,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        2
+      ],
+      "road_length_m": 5870.91,
+      "building_count": 6,
+      "road_count": 30,
+      "building_density_per_km2": 24.0,
+      "road_density_km_per_km2": 23.48364,
+      "road_density_class": "other",
+      "rendered_building_count": 6,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        3
+      ],
+      "road_length_m": 3533.5470000000005,
+      "building_count": 238,
+      "road_count": 11,
+      "building_density_per_km2": 952.0,
+      "road_density_km_per_km2": 14.134188000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 238,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        4
+      ],
+      "road_length_m": 5849.655000000001,
+      "building_count": 309,
+      "road_count": 22,
+      "building_density_per_km2": 1236.0,
+      "road_density_km_per_km2": 23.39862,
+      "road_density_class": "other",
+      "rendered_building_count": 309,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        5
+      ],
+      "road_length_m": 4694.174,
+      "building_count": 182,
+      "road_count": 21,
+      "building_density_per_km2": 728.0,
+      "road_density_km_per_km2": 18.776696,
+      "road_density_class": "other",
+      "rendered_building_count": 182,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        6
+      ],
+      "road_length_m": 5276.794000000001,
+      "building_count": 103,
+      "road_count": 24,
+      "building_density_per_km2": 412.0,
+      "road_density_km_per_km2": 21.107176000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 103,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        7
+      ],
+      "road_length_m": 10825.060000000001,
+      "building_count": 0,
+      "road_count": 109,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 43.30024,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        876.8389999999999,
+        -4314.525,
+        1376.839,
+        -3814.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        8
+      ],
+      "road_length_m": 8646.822,
+      "building_count": 1,
+      "road_count": 86,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 34.587288,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        876.8389999999999,
+        -3814.5249999999996,
+        1376.839,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1135035273"
+      ]
+    },
+    {
+      "grid": [
+        13,
+        9
+      ],
+      "road_length_m": 7057.956,
+      "building_count": 1,
+      "road_count": 85,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 28.231824,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        876.8389999999999,
+        -3314.5249999999996,
+        1376.839,
+        -2814.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1560752345"
+      ]
+    },
+    {
+      "grid": [
+        13,
+        10
+      ],
+      "road_length_m": 7097.866999999998,
+      "building_count": 1,
+      "road_count": 35,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 28.391467999999993,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        876.8389999999999,
+        -2814.5249999999996,
+        1376.839,
+        -2314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1134186901"
+      ]
+    },
+    {
+      "grid": [
+        13,
+        11
+      ],
+      "road_length_m": 5691.179999999999,
+      "building_count": 1,
+      "road_count": 30,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 22.764719999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        12
+      ],
+      "road_length_m": 2667.223,
+      "building_count": 1,
+      "road_count": 12,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 10.668892,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        13
+      ],
+      "road_length_m": 4357.28,
+      "building_count": 0,
+      "road_count": 20,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 17.429119999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        14
+      ],
+      "road_length_m": 2557.9949999999994,
+      "building_count": 0,
+      "road_count": 17,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 10.231979999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        15
+      ],
+      "road_length_m": 5174.497,
+      "building_count": 13,
+      "road_count": 18,
+      "building_density_per_km2": 52.0,
+      "road_density_km_per_km2": 20.697988000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 13,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        16
+      ],
+      "road_length_m": 2778.811,
+      "building_count": 3,
+      "road_count": 24,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 11.115244,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        13,
+        17
+      ],
+      "road_length_m": 4380.802,
+      "building_count": 1,
+      "road_count": 20,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 17.523208,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        -1
+      ],
+      "road_length_m": 1271.75,
+      "building_count": 0,
+      "road_count": 5,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 5.087,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        0
+      ],
+      "road_length_m": 1791.9379999999999,
+      "building_count": 0,
+      "road_count": 16,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 7.167751999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        1
+      ],
+      "road_length_m": 5658.6979999999985,
+      "building_count": 6,
+      "road_count": 33,
+      "building_density_per_km2": 24.0,
+      "road_density_km_per_km2": 22.634791999999994,
+      "road_density_class": "other",
+      "rendered_building_count": 6,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        2
+      ],
+      "road_length_m": 6168.517,
+      "building_count": 3,
+      "road_count": 22,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 24.674068,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        3
+      ],
+      "road_length_m": 5168.238,
+      "building_count": 77,
+      "road_count": 11,
+      "building_density_per_km2": 308.0,
+      "road_density_km_per_km2": 20.672952000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 77,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        4
+      ],
+      "road_length_m": 5150.276,
+      "building_count": 207,
+      "road_count": 19,
+      "building_density_per_km2": 828.0,
+      "road_density_km_per_km2": 20.601104,
+      "road_density_class": "other",
+      "rendered_building_count": 207,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        5
+      ],
+      "road_length_m": 6537.761,
+      "building_count": 197,
+      "road_count": 58,
+      "building_density_per_km2": 788.0,
+      "road_density_km_per_km2": 26.151044000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 197,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        6
+      ],
+      "road_length_m": 2941.477,
+      "building_count": 198,
+      "road_count": 12,
+      "building_density_per_km2": 792.0,
+      "road_density_km_per_km2": 11.765908,
+      "road_density_class": "other",
+      "rendered_building_count": 198,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        7
+      ],
+      "road_length_m": 4640.288,
+      "building_count": 19,
+      "road_count": 53,
+      "building_density_per_km2": 76.0,
+      "road_density_km_per_km2": 18.561152,
+      "road_density_class": "other",
+      "rendered_building_count": 19,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        8
+      ],
+      "road_length_m": 9084.802000000001,
+      "building_count": 3,
+      "road_count": 94,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 36.339208000000006,
+      "road_density_class": "high",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        9
+      ],
+      "road_length_m": 8394.417000000001,
+      "building_count": 6,
+      "road_count": 82,
+      "building_density_per_km2": 24.0,
+      "road_density_km_per_km2": 33.577668,
+      "road_density_class": "high",
+      "rendered_building_count": 6,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        10
+      ],
+      "road_length_m": 3624.858,
+      "building_count": 3,
+      "road_count": 21,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 14.499432,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        11
+      ],
+      "road_length_m": 4375.875,
+      "building_count": 11,
+      "road_count": 23,
+      "building_density_per_km2": 44.0,
+      "road_density_km_per_km2": 17.5035,
+      "road_density_class": "other",
+      "rendered_building_count": 11,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        12
+      ],
+      "road_length_m": 5629.080999999999,
+      "building_count": 0,
+      "road_count": 27,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 22.516323999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        13
+      ],
+      "road_length_m": 3717.7540000000004,
+      "building_count": 0,
+      "road_count": 15,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 14.871016000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        14
+      ],
+      "road_length_m": 4330.451000000001,
+      "building_count": 3,
+      "road_count": 24,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 17.321804000000004,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        15
+      ],
+      "road_length_m": 3802.1170000000006,
+      "building_count": 8,
+      "road_count": 19,
+      "building_density_per_km2": 32.0,
+      "road_density_km_per_km2": 15.208468000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 8,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        16
+      ],
+      "road_length_m": 6843.957999999999,
+      "building_count": 4,
+      "road_count": 24,
+      "building_density_per_km2": 16.0,
+      "road_density_km_per_km2": 27.375831999999996,
+      "road_density_class": "other",
+      "rendered_building_count": 4,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        17
+      ],
+      "road_length_m": 4271.2210000000005,
+      "building_count": 3,
+      "road_count": 31,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 17.084884000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        14,
+        19
+      ],
+      "road_length_m": 2222.063,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.888252,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        -1
+      ],
+      "road_length_m": 368.478,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 1.473912,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        0
+      ],
+      "road_length_m": 1222.069,
+      "building_count": 0,
+      "road_count": 8,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 4.888275999999999,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        1
+      ],
+      "road_length_m": 3696.4990000000003,
+      "building_count": 0,
+      "road_count": 10,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 14.785996,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        2
+      ],
+      "road_length_m": 2169.012,
+      "building_count": 0,
+      "road_count": 9,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.676048000000002,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        3
+      ],
+      "road_length_m": 1527.5449999999998,
+      "building_count": 11,
+      "road_count": 4,
+      "building_density_per_km2": 44.0,
+      "road_density_km_per_km2": 6.11018,
+      "road_density_class": "other",
+      "rendered_building_count": 11,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        4
+      ],
+      "road_length_m": 2887.2509999999997,
+      "building_count": 35,
+      "road_count": 5,
+      "building_density_per_km2": 140.0,
+      "road_density_km_per_km2": 11.549003999999998,
+      "road_density_class": "other",
+      "rendered_building_count": 35,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        5
+      ],
+      "road_length_m": 3751.116,
+      "building_count": 61,
+      "road_count": 13,
+      "building_density_per_km2": 244.0,
+      "road_density_km_per_km2": 15.004464,
+      "road_density_class": "other",
+      "rendered_building_count": 61,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        6
+      ],
+      "road_length_m": 2728.24,
+      "building_count": 92,
+      "road_count": 4,
+      "building_density_per_km2": 368.0,
+      "road_density_km_per_km2": 10.91296,
+      "road_density_class": "other",
+      "rendered_building_count": 92,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        7
+      ],
+      "road_length_m": 1968.0870000000004,
+      "building_count": 29,
+      "road_count": 14,
+      "building_density_per_km2": 116.0,
+      "road_density_km_per_km2": 7.8723480000000015,
+      "road_density_class": "other",
+      "rendered_building_count": 29,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        8
+      ],
+      "road_length_m": 5275.96,
+      "building_count": 5,
+      "road_count": 23,
+      "building_density_per_km2": 20.0,
+      "road_density_km_per_km2": 21.10384,
+      "road_density_class": "other",
+      "rendered_building_count": 5,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        9
+      ],
+      "road_length_m": 1626.026,
+      "building_count": 0,
+      "road_count": 12,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 6.504104,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        10
+      ],
+      "road_length_m": 3259.603,
+      "building_count": 1,
+      "road_count": 9,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 13.038412000000001,
+      "road_density_class": "other",
+      "rendered_building_count": 1,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        11
+      ],
+      "road_length_m": 1687.741,
+      "building_count": 0,
+      "road_count": 4,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 6.750964,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        12
+      ],
+      "road_length_m": 2978.815,
+      "building_count": 0,
+      "road_count": 8,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 11.91526,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        13
+      ],
+      "road_length_m": 2226.744,
+      "building_count": 0,
+      "road_count": 9,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.906976,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        14
+      ],
+      "road_length_m": 2102.093,
+      "building_count": 0,
+      "road_count": 18,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 8.408372,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        15
+      ],
+      "road_length_m": 3367.0239999999994,
+      "building_count": 7,
+      "road_count": 16,
+      "building_density_per_km2": 28.0,
+      "road_density_km_per_km2": 13.468095999999997,
+      "road_density_class": "other",
+      "rendered_building_count": 7,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        16
+      ],
+      "road_length_m": 2759.0340000000006,
+      "building_count": 2,
+      "road_count": 15,
+      "building_density_per_km2": 8.0,
+      "road_density_km_per_km2": 11.036136000000003,
+      "road_density_class": "other",
+      "rendered_building_count": 2,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        17
+      ],
+      "road_length_m": 2218.726,
+      "building_count": 3,
+      "road_count": 27,
+      "building_density_per_km2": 12.0,
+      "road_density_km_per_km2": 8.874904,
+      "road_density_class": "other",
+      "rendered_building_count": 3,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        15,
+        19
+      ],
+      "road_length_m": 1664.29,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 6.65716,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        16,
+        -2
+      ],
+      "road_length_m": 3671.411,
+      "building_count": 0,
+      "road_count": 1,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 14.685644,
+      "road_density_class": "other",
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    }
+  ],
+  "suspicious_areas": [
+    {
+      "grid": [
+        7,
+        8
+      ],
+      "road_length_m": 11879.344999999998,
+      "building_count": 1,
+      "road_count": 50,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 47.51737999999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -2123.161,
+        -3814.5249999999996,
+        -1623.161,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_363581269"
+      ]
+    },
+    {
+      "grid": [
+        0,
+        5
+      ],
+      "road_length_m": 11486.734999999999,
+      "building_count": 1,
+      "road_count": 30,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 45.94694,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5623.161,
+        -5314.525,
+        -5123.161,
+        -4814.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_333790345"
+      ]
+    },
+    {
+      "grid": [
+        12,
+        0
+      ],
+      "road_length_m": 11260.647,
+      "building_count": 1,
+      "road_count": 50,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 45.042588,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        376.83899999999994,
+        -7814.525,
+        876.8389999999999,
+        -7314.525
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_709230185"
+      ]
+    },
+    {
+      "grid": [
+        13,
+        7
+      ],
+      "road_length_m": 10825.060000000001,
+      "building_count": 0,
+      "road_count": 109,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 43.30024,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        876.8389999999999,
+        -4314.525,
+        1376.839,
+        -3814.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        2
+      ],
+      "road_length_m": 10519.344,
+      "building_count": 0,
+      "road_count": 54,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 42.077375999999994,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -6814.525,
+        -4623.161,
+        -6314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        12,
+        8
+      ],
+      "road_length_m": 10105.354000000001,
+      "building_count": 1,
+      "road_count": 79,
+      "building_density_per_km2": 4.0,
+      "road_density_km_per_km2": 40.42141600000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        376.83899999999994,
+        -3814.5249999999996,
+        876.8389999999999,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 1,
+      "rendered_building_ids": [
+        "osm_way_1560098109"
+      ]
+    },
+    {
+      "grid": [
+        4,
+        2
+      ],
+      "road_length_m": 10059.5,
+      "building_count": 0,
+      "road_count": 28,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 40.238,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -3623.161,
+        -6814.525,
+        -3123.161,
+        -6314.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        11,
+        7
+      ],
+      "road_length_m": 9856.321999999996,
+      "building_count": 0,
+      "road_count": 21,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 39.42528799999999,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -123.16100000000006,
+        -4314.525,
+        376.83899999999994,
+        -3814.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        1,
+        8
+      ],
+      "road_length_m": 9793.597,
+      "building_count": 0,
+      "road_count": 22,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 39.174388,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -5123.161,
+        -3814.5249999999996,
+        -4623.161,
+        -3314.5249999999996
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    },
+    {
+      "grid": [
+        8,
+        3
+      ],
+      "road_length_m": 9777.579000000003,
+      "building_count": 0,
+      "road_count": 86,
+      "building_density_per_km2": 0.0,
+      "road_density_km_per_km2": 39.11031600000001,
+      "road_density_class": "high",
+      "local_bounds_m": [
+        -1623.161,
+        -6314.525,
+        -1123.161,
+        -5814.525
+      ],
+      "rendered_building_count": 0,
+      "rendered_building_ids": []
+    }
+  ],
+  "high_road_low_building_cells": 44,
+  "high_road_zero_building_cells": 26,
+  "canonical_building_count": 4475,
+  "rendered_feature_count": 4475
+}

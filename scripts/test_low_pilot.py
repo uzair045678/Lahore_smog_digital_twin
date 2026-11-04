@@ -6,6 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 pilot = json.loads((ROOT / "city-data/pilot/lahore_pilot.json").read_text(encoding="utf-8"))
 stats = json.loads((ROOT / "web/public/low-pilot/low_pilot.stats.json").read_text(encoding="utf-8"))
 features = json.loads((ROOT / "web/public/low-pilot/low_pilot.features.json").read_text(encoding="utf-8"))
+coverage = json.loads((ROOT / "web/public/low-pilot/low_pilot.coverage.json").read_text(encoding="utf-8"))
 
 
 def test_low_asset_and_counts():
@@ -29,3 +30,18 @@ def test_low_safety_and_height_consistency():
 
 def test_low_isolated_from_high_output():
     assert not list((ROOT / "web/public/low-pilot").glob("*high*"))
+
+
+def test_coverage_audit_matches_rendered_features():
+    assert coverage["grid_size_m"] == 500.0
+    assert coverage["canonical_building_count"] == 4475
+    assert coverage["rendered_feature_count"] == 4475
+    assert coverage["high_road_low_building_cells"] >= 5
+    assert coverage["high_road_zero_building_cells"] >= 5
+
+
+def test_low_rendering_configuration_and_bounds():
+    assert stats["coordinate_bounds"] == pilot["bounds_local_m"]
+    assert set(stats["roadHierarchy"]) == {"major", "secondary", "local", "minor"}
+    assert sum(item["records"] for item in stats["roadHierarchy"].values()) == 9957
+    assert stats["meshes"] == stats["materials"] == 9
