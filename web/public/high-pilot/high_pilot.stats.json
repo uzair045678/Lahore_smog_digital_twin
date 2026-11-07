@@ -1,0 +1,126 @@
+{
+  "schema_version": "high-pilot-stats-v2",
+  "input": "F:\\_PROJECTS\\Lahore Smog Twin\\city-data\\pilot\\lahore_pilot.json",
+  "config": {
+    "variant": "high",
+    "tolerance_m": 0,
+    "max_area_error": 0.02,
+    "max_centroid_displacement_m": 0.5,
+    "preserve_holes": true
+  },
+  "coordinate_bounds": [
+    -5623.161,
+    -7814.525,
+    2028.377,
+    1098.152
+  ],
+  "geometry": {
+    "buildingsGenerated": 4475,
+    "buildingsFailed": 0,
+    "originalVertices": 24247,
+    "simplifiedVertices": 24247,
+    "buildingTriangles": 79636,
+    "holesRetained": 137,
+    "holesOmitted": 0,
+    "fallbackToOriginal": 0,
+    "maxCentroidDisplacementM": 0,
+    "maxAreaError": 0,
+    "originalRoadRecords": 9957,
+    "renderedRoadRecords": 9957,
+    "omittedRoadRecords": 0,
+    "roadOriginalVertices": 53142,
+    "roadSimplifiedVertices": 53142,
+    "roadSegments": 43159
+  },
+  "roadHierarchy": {
+    "major": {
+      "records": 120,
+      "segments": 1240,
+      "color": 14797199,
+      "opacity": 1
+    },
+    "secondary": {
+      "records": 558,
+      "segments": 6528,
+      "color": 10466500,
+      "opacity": 0.9
+    },
+    "local": {
+      "records": 7408,
+      "segments": 26219,
+      "color": 7375003,
+      "opacity": 0.7
+    },
+    "minor": {
+      "records": 1871,
+      "segments": 9172,
+      "color": 5400440,
+      "opacity": 0.45
+    }
+  },
+  "toleranceMeasurements": [
+    {
+      "tolerance_m": 0.25,
+      "originalVertices": 24247,
+      "simplifiedVertices": 23682,
+      "reduction_percent": 2.33,
+      "maxAreaError": 0.008594,
+      "maxCentroidDisplacementM": 0.1858,
+      "unsafeBuildings": 0
+    },
+    {
+      "tolerance_m": 0.5,
+      "originalVertices": 24247,
+      "simplifiedVertices": 23490,
+      "reduction_percent": 3.122,
+      "maxAreaError": 0.153755,
+      "maxCentroidDisplacementM": 0.72,
+      "unsafeBuildings": 10
+    },
+    {
+      "tolerance_m": 1,
+      "originalVertices": 24247,
+      "simplifiedVertices": 23212,
+      "reduction_percent": 4.269,
+      "maxAreaError": 0.353206,
+      "maxCentroidDisplacementM": 0.9572,
+      "unsafeBuildings": 27
+    },
+    {
+      "tolerance_m": 2,
+      "originalVertices": 24247,
+      "simplifiedVertices": 22299,
+      "reduction_percent": 8.034,
+      "maxAreaError": 0.5109,
+      "maxCentroidDisplacementM": 2.2154,
+      "unsafeBuildings": 137
+    }
+  ],
+  "batches": [
+    {
+      "category": "unknown",
+      "buildingCount": 2612
+    },
+    {
+      "category": "residential",
+      "buildingCount": 1550
+    },
+    {
+      "category": "institutional",
+      "buildingCount": 86
+    },
+    {
+      "category": "commercial",
+      "buildingCount": 222
+    },
+    {
+      "category": "industrial",
+      "buildingCount": 5
+    }
+  ],
+  "materials": 9,
+  "meshes": 9,
+  "estimatedDrawCalls": 9,
+  "assetBytes": 8688460,
+  "buildingFailureIds": []
+}
